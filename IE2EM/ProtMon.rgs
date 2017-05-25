@@ -1,0 +1,26 @@
+HKCR
+{
+	BHO.ProtMon.1 = s 'ProtMon Class'
+	{
+		CLSID = s '{D15FB88E-B87E-43D1-87C2-D5FF5FA33002}'
+	}
+	BHO.ProtMon = s 'ProtMon Class'
+	{
+		CLSID = s '{D15FB88E-B87E-43D1-87C2-D5FF5FA33002}'
+		CurVer = s 'BHO.ProtMon.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D15FB88E-B87E-43D1-87C2-D5FF5FA33002} = s 'ProtMon Class'
+		{
+			ProgID = s 'BHO.ProtMon.1'
+			VersionIndependentProgID = s 'BHO.ProtMon'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{8F5497A2-6C8C-45EA-87BC-5A76F2F5E28B}'
+		}
+	}
+}

@@ -1,0 +1,41 @@
+HKCU
+{
+	NoRemove Software
+	{
+		NoRemove Microsoft
+		{
+			NoRemove 'Internet Explorer'
+			{
+				val DownloadUI = s '{A0867FD1-79E7-456C-8B41-165A2504FD86}'
+		 	}
+		}
+	}
+}
+
+HKCR
+{
+	DM.EMDM.1 = s 'EMDM Class'
+	{
+		CLSID = s '{A0867FD1-79E7-456C-8B41-165A2504FD86}'
+	}
+	DM.EMDM = s 'EMDM Class'
+	{
+		CLSID = s '{A0867FD1-79E7-456C-8B41-165A2504FD86}'
+		CurVer = s 'DM.EMDM.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A0867FD1-79E7-456C-8B41-165A2504FD86} = s 'EMDM Class'
+		{
+			ProgID = s 'DM.EMDM.1'
+			VersionIndependentProgID = s 'DM.EMDM'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{8F5497A2-6C8C-45EA-87BC-5A76F2F5E28B}'
+		}
+	}
+}

@@ -1,0 +1,325 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 非特定语言 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_COUNTRY_FLAG_AD     ICON                    "res\\ad.ico"
+IDI_COUNTRY_FLAG_AE     ICON                    "res\\ae.ico"
+IDI_COUNTRY_FLAG_AF     ICON                    "res\\af.ico"
+IDI_COUNTRY_FLAG_AG     ICON                    "res\\ag.ico"
+IDI_COUNTRY_FLAG_AI     ICON                    "res\\ai.ico"
+IDI_COUNTRY_FLAG_AL     ICON                    "res\\al.ico"
+IDI_COUNTRY_FLAG_AM     ICON                    "res\\am.ico"
+IDI_COUNTRY_FLAG_AN     ICON                    "res\\an.ico"
+IDI_COUNTRY_FLAG_AO     ICON                    "res\\ao.ico"
+IDI_COUNTRY_FLAG_AR     ICON                    "res\\ar.ico"
+IDI_COUNTRY_FLAG_AS     ICON                    "res\\as.ico"
+IDI_COUNTRY_FLAG_AT     ICON                    "res\\at.ico"
+IDI_COUNTRY_FLAG_AU     ICON                    "res\\au.ico"
+IDI_COUNTRY_FLAG_AW     ICON                    "res\\aw.ico"
+IDI_COUNTRY_FLAG_AZ     ICON                    "res\\az.ico"
+IDI_COUNTRY_FLAG_BA     ICON                    "res\\ba.ico"
+IDI_COUNTRY_FLAG_BB     ICON                    "res\\bb.ico"
+IDI_COUNTRY_FLAG_BD     ICON                    "res\\bd.ico"
+IDI_COUNTRY_FLAG_BE     ICON                    "res\\be.ico"
+IDI_COUNTRY_FLAG_BF     ICON                    "res\\bf.ico"
+IDI_COUNTRY_FLAG_BG     ICON                    "res\\bg.ico"
+IDI_COUNTRY_FLAG_BH     ICON                    "res\\bh.ico"
+IDI_COUNTRY_FLAG_BI     ICON                    "res\\bi.ico"
+IDI_COUNTRY_FLAG_BJ     ICON                    "res\\bj.ico"
+IDI_COUNTRY_FLAG_BM     ICON                    "res\\bm.ico"
+IDI_COUNTRY_FLAG_BN     ICON                    "res\\bn.ico"
+IDI_COUNTRY_FLAG_BO     ICON                    "res\\bo.ico"
+IDI_COUNTRY_FLAG_BR     ICON                    "res\\br.ico"
+IDI_COUNTRY_FLAG_BS     ICON                    "res\\bs.ico"
+IDI_COUNTRY_FLAG_BT     ICON                    "res\\bt.ico"
+IDI_COUNTRY_FLAG_BW     ICON                    "res\\bw.ico"
+IDI_COUNTRY_FLAG_BY     ICON                    "res\\by.ico"
+IDI_COUNTRY_FLAG_BZ     ICON                    "res\\bz.ico"
+IDI_COUNTRY_FLAG_CA     ICON                    "res\\ca.ico"
+IDI_COUNTRY_FLAG_CC     ICON                    "res\\cc.ico"
+IDI_COUNTRY_FLAG_CD     ICON                    "res\\cd.ico"
+IDI_COUNTRY_FLAG_CF     ICON                    "res\\cf.ico"
+IDI_COUNTRY_FLAG_CG     ICON                    "res\\cg.ico"
+IDI_COUNTRY_FLAG_CH     ICON                    "res\\ch.ico"
+IDI_COUNTRY_FLAG_CI     ICON                    "res\\ci.ico"
+IDI_COUNTRY_FLAG_CK     ICON                    "res\\ck.ico"
+IDI_COUNTRY_FLAG_CL     ICON                    "res\\cl.ico"
+IDI_COUNTRY_FLAG_CM     ICON                    "res\\cm.ico"
+IDI_COUNTRY_FLAG_CN     ICON                    "res\\cn.ico"
+IDI_COUNTRY_FLAG_CO     ICON                    "res\\co.ico"
+IDI_COUNTRY_FLAG_CR     ICON                    "res\\cr.ico"
+IDI_COUNTRY_FLAG_CU     ICON                    "res\\cu.ico"
+IDI_COUNTRY_FLAG_CV     ICON                    "res\\cv.ico"
+IDI_COUNTRY_FLAG_CX     ICON                    "res\\cx.ico"
+IDI_COUNTRY_FLAG_CY     ICON                    "res\\cy.ico"
+IDI_COUNTRY_FLAG_CZ     ICON                    "res\\cz.ico"
+IDI_COUNTRY_FLAG_DE     ICON                    "res\\de.ico"
+IDI_COUNTRY_FLAG_DJ     ICON                    "res\\dj.ico"
+IDI_COUNTRY_FLAG_DK     ICON                    "res\\dk.ico"
+IDI_COUNTRY_FLAG_DM     ICON                    "res\\dm.ico"
+IDI_COUNTRY_FLAG_DO     ICON                    "res\\do.ico"
+IDI_COUNTRY_FLAG_DZ     ICON                    "res\\dz.ico"
+IDI_COUNTRY_FLAG_EC     ICON                    "res\\ec.ico"
+IDI_COUNTRY_FLAG_EE     ICON                    "res\\ee.ico"
+IDI_COUNTRY_FLAG_EG     ICON                    "res\\eg.ico"
+IDI_COUNTRY_FLAG_EH     ICON                    "res\\eh.ico"
+IDI_COUNTRY_FLAG_ER     ICON                    "res\\er.ico"
+IDI_COUNTRY_FLAG_ES     ICON                    "res\\es.ico"
+IDI_COUNTRY_FLAG_ET     ICON                    "res\\et.ico"
+IDI_COUNTRY_FLAG_FI     ICON                    "res\\fi.ico"
+IDI_COUNTRY_FLAG_FJ     ICON                    "res\\fj.ico"
+IDI_COUNTRY_FLAG_FK     ICON                    "res\\fk.ico"
+IDI_COUNTRY_FLAG_FM     ICON                    "res\\fm.ico"
+IDI_COUNTRY_FLAG_FO     ICON                    "res\\fo.ico"
+IDI_COUNTRY_FLAG_FR     ICON                    "res\\fr.ico"
+IDI_COUNTRY_FLAG_GA     ICON                    "res\\ga.ico"
+IDI_COUNTRY_FLAG_GB     ICON                    "res\\gb.ico"
+IDI_COUNTRY_FLAG_GD     ICON                    "res\\gd.ico"
+IDI_COUNTRY_FLAG_GE     ICON                    "res\\ge.ico"
+IDI_COUNTRY_FLAG_GG     ICON                    "res\\gg.ico"
+IDI_COUNTRY_FLAG_GH     ICON                    "res\\gh.ico"
+IDI_COUNTRY_FLAG_GI     ICON                    "res\\gi.ico"
+IDI_COUNTRY_FLAG_GK     ICON                    "res\\gk.ico"
+IDI_COUNTRY_FLAG_GL     ICON                    "res\\gl.ico"
+IDI_COUNTRY_FLAG_GM     ICON                    "res\\gm.ico"
+IDI_COUNTRY_FLAG_GN     ICON                    "res\\gn.ico"
+IDI_COUNTRY_FLAG_GP     ICON                    "res\\gp.ico"
+IDI_COUNTRY_FLAG_GQ     ICON                    "res\\gq.ico"
+IDI_COUNTRY_FLAG_GR     ICON                    "res\\gr.ico"
+IDI_COUNTRY_FLAG_GS     ICON                    "res\\gs.ico"
+IDI_COUNTRY_FLAG_GT     ICON                    "res\\gt.ico"
+IDI_COUNTRY_FLAG_GU     ICON                    "res\\gu.ico"
+IDI_COUNTRY_FLAG_GW     ICON                    "res\\gw.ico"
+IDI_COUNTRY_FLAG_GY     ICON                    "res\\gy.ico"
+IDI_COUNTRY_FLAG_HK     ICON                    "res\\hk.ico"
+IDI_COUNTRY_FLAG_HN     ICON                    "res\\hn.ico"
+IDI_COUNTRY_FLAG_HR     ICON                    "res\\hr.ico"
+IDI_COUNTRY_FLAG_HT     ICON                    "res\\ht.ico"
+IDI_COUNTRY_FLAG_HU     ICON                    "res\\hu.ico"
+IDI_COUNTRY_FLAG_ID     ICON                    "res\\id.ico"
+IDI_COUNTRY_FLAG_IE     ICON                    "res\\ie.ico"
+IDI_COUNTRY_FLAG_IL     ICON                    "res\\il.ico"
+IDI_COUNTRY_FLAG_IM     ICON                    "res\\im.ico"
+IDI_COUNTRY_FLAG_IN     ICON                    "res\\in.ico"
+IDI_COUNTRY_FLAG_IO     ICON                    "res\\io.ico"
+IDI_COUNTRY_FLAG_IQ     ICON                    "res\\iq.ico"
+IDI_COUNTRY_FLAG_IR     ICON                    "res\\ir.ico"
+IDI_COUNTRY_FLAG_IS     ICON                    "res\\is.ico"
+IDI_COUNTRY_FLAG_IT     ICON                    "res\\it.ico"
+IDI_COUNTRY_FLAG_JE     ICON                    "res\\je.ico"
+IDI_COUNTRY_FLAG_JM     ICON                    "res\\jm.ico"
+IDI_COUNTRY_FLAG_JO     ICON                    "res\\jo.ico"
+IDI_COUNTRY_FLAG_JP     ICON                    "res\\jp.ico"
+IDI_COUNTRY_FLAG_KE     ICON                    "res\\ke.ico"
+IDI_COUNTRY_FLAG_KG     ICON                    "res\\kg.ico"
+IDI_COUNTRY_FLAG_KH     ICON                    "res\\kh.ico"
+IDI_COUNTRY_FLAG_KI     ICON                    "res\\ki.ico"
+IDI_COUNTRY_FLAG_KM     ICON                    "res\\km.ico"
+IDI_COUNTRY_FLAG_KN     ICON                    "res\\kn.ico"
+IDI_COUNTRY_FLAG_KP     ICON                    "res\\kp.ico"
+IDI_COUNTRY_FLAG_KR     ICON                    "res\\kr.ico"
+IDI_COUNTRY_FLAG_KW     ICON                    "res\\kw.ico"
+IDI_COUNTRY_FLAG_KY     ICON                    "res\\ky.ico"
+IDI_COUNTRY_FLAG_KZ     ICON                    "res\\kz.ico"
+IDI_COUNTRY_FLAG_LA     ICON                    "res\\la.ico"
+IDI_COUNTRY_FLAG_LB     ICON                    "res\\lb.ico"
+IDI_COUNTRY_FLAG_LC     ICON                    "res\\lc.ico"
+IDI_COUNTRY_FLAG_LI     ICON                    "res\\li.ico"
+IDI_COUNTRY_FLAG_LK     ICON                    "res\\lk.ico"
+IDI_COUNTRY_FLAG_LR     ICON                    "res\\lr.ico"
+IDI_COUNTRY_FLAG_LS     ICON                    "res\\ls.ico"
+IDI_COUNTRY_FLAG_LT     ICON                    "res\\lt.ico"
+IDI_COUNTRY_FLAG_LU     ICON                    "res\\lu.ico"
+IDI_COUNTRY_FLAG_LV     ICON                    "res\\lv.ico"
+IDI_COUNTRY_FLAG_LY     ICON                    "res\\ly.ico"
+IDI_COUNTRY_FLAG_MA     ICON                    "res\\ma.ico"
+IDI_COUNTRY_FLAG_MC     ICON                    "res\\mc.ico"
+IDI_COUNTRY_FLAG_MD     ICON                    "res\\md.ico"
+IDI_COUNTRY_FLAG_MG     ICON                    "res\\mg.ico"
+IDI_COUNTRY_FLAG_MH     ICON                    "res\\mh.ico"
+IDI_COUNTRY_FLAG_MK     ICON                    "res\\mk.ico"
+IDI_COUNTRY_FLAG_ML     ICON                    "res\\ml.ico"
+IDI_COUNTRY_FLAG_MM     ICON                    "res\\mm.ico"
+IDI_COUNTRY_FLAG_MN     ICON                    "res\\mn.ico"
+IDI_COUNTRY_FLAG_MO     ICON                    "res\\mo.ico"
+IDI_COUNTRY_FLAG_MP     ICON                    "res\\mp.ico"
+IDI_COUNTRY_FLAG_MQ     ICON                    "res\\mq.ico"
+IDI_COUNTRY_FLAG_MR     ICON                    "res\\mr.ico"
+IDI_COUNTRY_FLAG_MS     ICON                    "res\\ms.ico"
+IDI_COUNTRY_FLAG_MT     ICON                    "res\\mt.ico"
+IDI_COUNTRY_FLAG_MU     ICON                    "res\\mu.ico"
+IDI_COUNTRY_FLAG_MV     ICON                    "res\\mv.ico"
+IDI_COUNTRY_FLAG_MW     ICON                    "res\\mw.ico"
+IDI_COUNTRY_FLAG_MX     ICON                    "res\\mx.ico"
+IDI_COUNTRY_FLAG_MY     ICON                    "res\\my.ico"
+IDI_COUNTRY_FLAG_MZ     ICON                    "res\\mz.ico"
+IDI_COUNTRY_FLAG_NA     ICON                    "res\\na.ico"
+IDI_COUNTRY_FLAG_NC     ICON                    "res\\nc.ico"
+IDI_COUNTRY_FLAG_NE     ICON                    "res\\ne.ico"
+IDI_COUNTRY_FLAG_NF     ICON                    "res\\nf.ico"
+IDI_COUNTRY_FLAG_NG     ICON                    "res\\ng.ico"
+IDI_COUNTRY_FLAG_NI     ICON                    "res\\ni.ico"
+IDI_COUNTRY_FLAG_NL     ICON                    "res\\nl.ico"
+IDI_COUNTRY_FLAG_NO     ICON                    "res\\no.ico"
+IDI_COUNTRY_FLAG_NP     ICON                    "res\\np.ico"
+IDI_COUNTRY_FLAG_NR     ICON                    "res\\nr.ico"
+IDI_COUNTRY_FLAG_NU     ICON                    "res\\nu.ico"
+IDI_COUNTRY_FLAG_NZ     ICON                    "res\\nz.ico"
+IDI_COUNTRY_FLAG_OM     ICON                    "res\\om.ico"
+IDI_COUNTRY_FLAG_PA     ICON                    "res\\pa.ico"
+IDI_COUNTRY_FLAG_PC     ICON                    "res\\pc.ico"
+IDI_COUNTRY_FLAG_PE     ICON                    "res\\pe.ico"
+IDI_COUNTRY_FLAG_PF     ICON                    "res\\pf.ico"
+IDI_COUNTRY_FLAG_PG     ICON                    "res\\pg.ico"
+IDI_COUNTRY_FLAG_PH     ICON                    "res\\ph.ico"
+IDI_COUNTRY_FLAG_PK     ICON                    "res\\pk.ico"
+IDI_COUNTRY_FLAG_PL     ICON                    "res\\pl.ico"
+IDI_COUNTRY_FLAG_PM     ICON                    "res\\pm.ico"
+IDI_COUNTRY_FLAG_PN     ICON                    "res\\pn.ico"
+IDI_COUNTRY_FLAG_PR     ICON                    "res\\pr.ico"
+IDI_COUNTRY_FLAG_PS     ICON                    "res\\ps.ico"
+IDI_COUNTRY_FLAG_PT     ICON                    "res\\pt.ico"
+IDI_COUNTRY_FLAG_PW     ICON                    "res\\pw.ico"
+IDI_COUNTRY_FLAG_PY     ICON                    "res\\py.ico"
+IDI_COUNTRY_FLAG_QA     ICON                    "res\\qa.ico"
+IDI_COUNTRY_FLAG_RO     ICON                    "res\\ro.ico"
+IDI_COUNTRY_FLAG_RU     ICON                    "res\\ru.ico"
+IDI_COUNTRY_FLAG_RW     ICON                    "res\\rw.ico"
+IDI_COUNTRY_FLAG_SA     ICON                    "res\\sa.ico"
+IDI_COUNTRY_FLAG_SB     ICON                    "res\\sb.ico"
+IDI_COUNTRY_FLAG_SC     ICON                    "res\\sc.ico"
+IDI_COUNTRY_FLAG_SD     ICON                    "res\\sd.ico"
+IDI_COUNTRY_FLAG_SE     ICON                    "res\\se.ico"
+IDI_COUNTRY_FLAG_SG     ICON                    "res\\sg.ico"
+IDI_COUNTRY_FLAG_SH     ICON                    "res\\sh.ico"
+IDI_COUNTRY_FLAG_SI     ICON                    "res\\si.ico"
+IDI_COUNTRY_FLAG_SK     ICON                    "res\\sk.ico"
+IDI_COUNTRY_FLAG_SL     ICON                    "res\\sl.ico"
+IDI_COUNTRY_FLAG_SM     ICON                    "res\\sm.ico"
+IDI_COUNTRY_FLAG_SN     ICON                    "res\\sn.ico"
+IDI_COUNTRY_FLAG_SO     ICON                    "res\\so.ico"
+IDI_COUNTRY_FLAG_SR     ICON                    "res\\sr.ico"
+IDI_COUNTRY_FLAG_ST     ICON                    "res\\st.ico"
+IDI_COUNTRY_FLAG_SU     ICON                    "res\\su.ico"
+IDI_COUNTRY_FLAG_SV     ICON                    "res\\sv.ico"
+IDI_COUNTRY_FLAG_SY     ICON                    "res\\sy.ico"
+IDI_COUNTRY_FLAG_SZ     ICON                    "res\\sz.ico"
+IDI_COUNTRY_FLAG_TC     ICON                    "res\\tc.ico"
+IDI_COUNTRY_FLAG_TD     ICON                    "res\\td.ico"
+IDI_COUNTRY_FLAG_TF     ICON                    "res\\tf.ico"
+IDI_COUNTRY_FLAG_TG     ICON                    "res\\tg.ico"
+IDI_COUNTRY_FLAG_TH     ICON                    "res\\th.ico"
+IDI_COUNTRY_FLAG_TJ     ICON                    "res\\tj.ico"
+IDI_COUNTRY_FLAG_TK     ICON                    "res\\tk.ico"
+IDI_COUNTRY_FLAG_TL     ICON                    "res\\tl.ico"
+IDI_COUNTRY_FLAG_TM     ICON                    "res\\tm.ico"
+IDI_COUNTRY_FLAG_TN     ICON                    "res\\tn.ico"
+IDI_COUNTRY_FLAG_TO     ICON                    "res\\to.ico"
+IDI_COUNTRY_FLAG_TR     ICON                    "res\\tr.ico"
+IDI_COUNTRY_FLAG_TT     ICON                    "res\\tt.ico"
+IDI_COUNTRY_FLAG_TV     ICON                    "res\\tv.ico"
+IDI_COUNTRY_FLAG_TW     ICON                    "res\\tw.ico"
+IDI_COUNTRY_FLAG_TZ     ICON                    "res\\tz.ico"
+IDI_COUNTRY_FLAG_UA     ICON                    "res\\ua.ico"
+IDI_COUNTRY_FLAG_UG     ICON                    "res\\ug.ico"
+IDI_COUNTRY_FLAG_UM     ICON                    "res\\um.ico"
+IDI_COUNTRY_FLAG_US     ICON                    "res\\us.ico"
+IDI_COUNTRY_FLAG_UY     ICON                    "res\\uy.ico"
+IDI_COUNTRY_FLAG_UZ     ICON                    "res\\uz.ico"
+IDI_COUNTRY_FLAG_VA     ICON                    "res\\va.ico"
+IDI_COUNTRY_FLAG_VC     ICON                    "res\\vc.ico"
+IDI_COUNTRY_FLAG_VE     ICON                    "res\\ve.ico"
+IDI_COUNTRY_FLAG_VG     ICON                    "res\\vg.ico"
+IDI_COUNTRY_FLAG_VI     ICON                    "res\\vi.ico"
+IDI_COUNTRY_FLAG_VN     ICON                    "res\\vn.ico"
+IDI_COUNTRY_FLAG_VU     ICON                    "res\\vu.ico"
+IDI_COUNTRY_FLAG_WF     ICON                    "res\\wf.ico"
+IDI_COUNTRY_FLAG_WS     ICON                    "res\\ws.ico"
+IDI_COUNTRY_FLAG_YE     ICON                    "res\\ye.ico"
+IDI_COUNTRY_FLAG_YU     ICON                    "res\\yu.ico"
+IDI_COUNTRY_FLAG_ZA     ICON                    "res\\za.ico"
+IDI_COUNTRY_FLAG_ZM     ICON                    "res\\zm.ico"
+IDI_COUNTRY_FLAG_ZW     ICON                    "res\\zw.ico"
+IDI_COUNTRY_FLAG_UK     ICON                    "res\\uk.ico"
+IDI_COUNTRY_FLAG_CS     ICON                    "res\\cs.ico"
+IDI_COUNTRY_FLAG_NOFLAG ICON                    "res\\not.ico"
+IDI_COUNTRY_FLAG_TS     ICON                    "res\\ts.ico"
+#endif    // 非特定语言 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(台湾) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(台湾) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

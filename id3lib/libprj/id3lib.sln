@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "id3lib", "id3lib.vcproj", "{FFAB12B9-0A2D-46A9-BDB3-3DEB9F1B08A5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FFAB12B9-0A2D-46A9-BDB3-3DEB9F1B08A5}.Debug.ActiveCfg = Debug|Win32
+		{FFAB12B9-0A2D-46A9-BDB3-3DEB9F1B08A5}.Debug.Build.0 = Debug|Win32
+		{FFAB12B9-0A2D-46A9-BDB3-3DEB9F1B08A5}.Release.ActiveCfg = Release|Win32
+		{FFAB12B9-0A2D-46A9-BDB3-3DEB9F1B08A5}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

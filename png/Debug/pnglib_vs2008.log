@@ -1,0 +1,82 @@
+﻿  pngerror.c
+f:\mycode\easymule\png\pngerror.c(154): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+  png.c
+f:\mycode\easymule\png\png.c(688): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+  pngget.c
+  pngmem.c
+  pngpread.c
+f:\mycode\easymule\png\pngpread.c(1496): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+  pngread.c
+f:\mycode\easymule\png\pngread.c(122): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngread.c(127): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngread.c(204): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngread.c(209): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+  pngrio.c
+  pngrtran.c
+f:\mycode\easymule\png\pngrtran.c(1269): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+  pngrutil.c
+f:\mycode\easymule\png\pngrutil.c(291): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngrutil.c(295): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngrutil.c(299): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngrutil.c(332): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngrutil.c(2210): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+  pngset.c
+f:\mycode\easymule\png\pngset.c(693): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+f:\mycode\easymule\png\pngset.c(983): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+f:\mycode\easymule\png\pngset.c(1040): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+  pngtrans.c
+  pngvcrd.c
+f:\mycode\easymule\png\pngvcrd.c(3714): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngvcrd.c(3718): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngvcrd.c(3721): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngvcrd.c(3724): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngvcrd.c(3727): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngvcrd.c(3739): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+  pngwio.c
+  pngwrite.c
+f:\mycode\easymule\png\pngwrite.c(417): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+f:\mycode\easymule\png\pngwrite.c(517): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngwrite.c(522): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngwrite.c(589): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngwrite.c(594): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+  pngwtran.c
+  pngwutil.c
+f:\mycode\easymule\png\pngwutil.c(185): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngwutil.c(1241): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngwutil.c(1626): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+f:\mycode\easymule\png\pngwutil.c(1628): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1353,5): warning MSB8012: TargetPath(F:\mycode\easyMule\png\.\Debug\libpng.lib) does not match the Library's OutputFile property value (F:\mycode\easyMule\png\Debug\pnglib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1355,5): warning MSB8012: TargetName(libpng) does not match the Library's OutputFile property value (pnglib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  pnglib_vs2008.vcxproj -> F:\mycode\easyMule\png\.\Debug\libpng.lib

@@ -1,0 +1,9 @@
+; IE2EM.def : 定义模块参数。
+
+LIBRARY      "IE2EM.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

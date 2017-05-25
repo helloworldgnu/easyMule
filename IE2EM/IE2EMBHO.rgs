@@ -1,0 +1,51 @@
+HKCR
+{
+	BHO.IE2EMBHO.1 = s 'IE2EMBHO Class'
+	{
+		CLSID = s '{0A0DDBD3-6641-40B9-873F-BBDD26D6C14E}'
+	}
+	BHO.IE2EMBHO = s 'IE2EMBHO Class'
+	{
+		CLSID = s '{0A0DDBD3-6641-40B9-873F-BBDD26D6C14E}'
+		CurVer = s 'BHO.IE2EMBHO.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {0A0DDBD3-6641-40B9-873F-BBDD26D6C14E} = s 'IE2EMBHO Class'
+		{
+			ProgID = s 'BHO.IE2EMBHO.1'
+			VersionIndependentProgID = s 'BHO.IE2EMBHO'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{8F5497A2-6C8C-45EA-87BC-5A76F2F5E28B}'
+		}
+	}
+}
+
+
+HKLM
+{
+	NoRemove Software
+	{
+		NoRemove Microsoft
+		{
+			NoRemove Windows
+			{
+				NoRemove CurrentVersion
+				{
+					NoRemove Explorer
+					{
+						NoRemove 'Browser Helper Objects'
+						{
+							ForceRemove {0A0DDBD3-6641-40B9-873F-BBDD26D6C14E}
+						}
+					}
+				}
+			}
+		}
+	}
+}

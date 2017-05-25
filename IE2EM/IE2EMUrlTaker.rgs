@@ -1,0 +1,27 @@
+HKCR
+{
+	IE2EM.IE2EMUrlTaker.1 = s 'IE2EMUrlTaker Class'
+	{
+		CLSID = s '{48618374-565F-4CA0-B8CD-6F496C997FAF}'
+	}
+	IE2EM.IE2EMUrlTaker = s 'IE2EMUrlTaker Class'
+	{
+		CLSID = s '{48618374-565F-4CA0-B8CD-6F496C997FAF}'
+		CurVer = s 'IE2EM.IE2EMUrlTaker.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {48618374-565F-4CA0-B8CD-6F496C997FAF} = s 'IE2EMUrlTaker Class'
+		{
+			ProgID = s 'IE2EM.IE2EMUrlTaker.1'
+			VersionIndependentProgID = s 'IE2EM.IE2EMUrlTaker'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{8F5497A2-6C8C-45EA-87BC-5A76F2F5E28B}'
+		}
+	}
+}

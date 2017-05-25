@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml", "tinyxml_lib.vcproj", "{E28BA246-8A58-4CC7-86F9-B9322157A5EB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E28BA246-8A58-4CC7-86F9-B9322157A5EB}.Debug.ActiveCfg = Debug|Win32
+		{E28BA246-8A58-4CC7-86F9-B9322157A5EB}.Debug.Build.0 = Debug|Win32
+		{E28BA246-8A58-4CC7-86F9-B9322157A5EB}.Release.ActiveCfg = Release|Win32
+		{E28BA246-8A58-4CC7-86F9-B9322157A5EB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

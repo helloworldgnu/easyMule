@@ -1,0 +1,1674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Alpha|Win32">
+      <Configuration>Alpha</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Beta|Win32">
+      <Configuration>Beta</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{584EA69D-3443-4197-8994-364880FC1B9B}</ProjectGuid>
+    <RootNamespace>emule_vs2008</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\debug\</OutDir>
+    <IntDir>.\objs\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b*.asm%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\OpenSourceCode\easyMule-VeryCD-src\easyMule\src\wtl9.0;$(IncludePath)</IncludePath>
+    <TargetName>emule</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\release\</OutDir>
+    <IntDir>.\release\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b*.asm%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+    <OutDir>Beta\</OutDir>
+    <IntDir>Beta\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b*.asm%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b*.asm%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/wd4995 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..;..\id3lib\include;WorkLayer;WorkLayer\UPnP;UILayer;UILayer\Common;UILayer\CtrlEx;UILayer\Commands;UILayer\Functions\AddTask;UILayer\Lists;UILayer\ToolbarCtrls;UILayer\TrayMenu;UILayer\SMIRC;..\TinyXml;..\sqlite3;..\crypto55;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;ID3LIB_LINKOPTION=1;SUPPORT_LARGE_FILES;_SUPPORT_MEMPOOL;_ENABLE_LAN_TRANSFER;_PLAY_WHILE_DOWNLOADING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling />
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;winmm.lib;ws2_32.lib;gdiplus.lib;ADSIId.lib;crypt32.lib;..\zlib\debug\zlib.lib;..\crypto55\crypto\debug\cryptlib.lib;..\id3lib\libprj\id3libD.lib;..\CxImage\debug\cximage.lib;..\png\debug\pnglib.lib;..\ResizableLib\DebugUnicode\ResizableLib.lib;..\TinyXml\Debug\tinyxmld.lib;..\sqlite3\Debug\sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)emule.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>LIBCD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>oleacc.dll;gdiplus.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)emule.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/wd4995 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>.;..;..\id3lib\include;WorkLayer;WorkLayer\UPnP;UILayer;UILayer\Common;UILayer\CtrlEx;UILayer\Commands;UILayer\Functions\AddTask;UILayer\Lists;UILayer\ToolbarCtrls;UILayer\TrayMenu;UILayer\SMIRC;..\TinyXml;..\sqlite3;..\crypto55;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ID3LIB_LINKOPTION=1;SUPPORT_LARGE_FILES;_SUPPORT_MEMPOOL;_ENABLE_LAN_TRANSFER;_PLAY_WHILE_DOWNLOADING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;ws2_32.lib;gdiplus.lib;ADSIId.lib;crypt32.lib;..\zlib\release\zlib.lib;..\crypto55\crypto\release\cryptlib.lib;..\id3lib\libprj\id3lib.lib;..\CxImage\Release\cximage.lib;..\png\Release\pnglib.lib;..\ResizableLib\ReleaseUnicode\ResizableLib.lib;..\TinyXml\Release\tinyxml.lib;..\sqlite3\Release\sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)emule.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libc;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>oleacc.dll;gdiplus.dll;ws2_32.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)emule.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>.;..;..\id3lib\include;WorkLayer;WorkLayer\UPnP;UILayer;UILayer\Common;UILayer\CtrlEx;UILayer\Commands;UILayer\Functions\AddTask;UILayer\Lists;UILayer\ToolbarCtrls;UILayer\TrayMenu;UILayer\SMIRC;..\TinyXml;..\sqlite3;..\crypto55;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ID3LIB_LINKOPTION=1;_BETA;SUPPORT_LARGE_FILES;_SUPPORT_MEMPOOL;_ENABLE_LAN_TRANSFER;_PLAY_WHILE_DOWNLOADING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;ws2_32.lib;gdiplus.lib;ADSIId.lib;crypt32.lib;..\zlib\release\zlib.lib;..\crypto55\crypto\release\cryptlib.lib;..\id3lib\libprj\id3lib.lib;..\CxImage\Release\cximage.lib;..\png\Release\pnglib.lib;..\ResizableLib\ReleaseUnicode\ResizableLib.lib;..\TinyXml\Release\tinyxml.lib;..\sqlite3\Release\sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)emule.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>oleacc.dll;gdiplus.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)emule.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>.;..;..\id3lib\include;WorkLayer;WorkLayer\UPnP;UILayer;UILayer\Common;UILayer\CtrlEx;UILayer\Commands;UILayer\Functions\AddTask;UILayer\Lists;UILayer\ToolbarCtrls;UILayer\TrayMenu;UILayer\SMIRC;..\TinyXml;..\sqlite3;..\crypto55;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ID3LIB_LINKOPTION=1;_BETA;_VCALPHA;SUPPORT_LARGE_FILES;_SUPPORT_MEMPOOL;_ENABLE_LAN_TRANSFER;_PLAY_WHILE_DOWNLOADING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;ws2_32.lib;gdiplus.lib;ADSIId.lib;crypt32.lib;..\zlib\release\zlib.lib;..\crypto55\crypto\release\cryptlib.lib;..\id3lib\libprj\id3lib.lib;..\CxImage\Release\cximage.lib;..\png\Release\pnglib.lib;..\ResizableLib\ReleaseUnicode\ResizableLib.lib;..\TinyXml\Release\tinyxml.lib;..\sqlite3\Release\sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)emule.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>oleacc.dll;gdiplus.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)emule.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="WorkLayer\kademlia\io\BufferedFileIO.h" />
+    <ClInclude Include="WorkLayer\kademlia\io\ByteIO.h" />
+    <ClInclude Include="WorkLayer\kademlia\routing\Contact.h" />
+    <ClInclude Include="WorkLayer\kademlia\io\DataIO.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Defines.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Entry.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Error.h" />
+    <ClInclude Include="WorkLayer\kademlia\io\FileIO.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Indexed.h" />
+    <ClInclude Include="WorkLayer\kademlia\io\IOException.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Kademlia.h" />
+    <ClInclude Include="WorkLayer\kademlia\net\KademliaUDPListener.h" />
+    <ClInclude Include="WorkLayer\kademlia\utils\KadUDPKey.h" />
+    <ClInclude Include="WorkLayer\kademlia\utils\LittleEndian.h" />
+    <ClInclude Include="WorkLayer\kademlia\routing\Maps.h" />
+    <ClInclude Include="WorkLayer\kademlia\utils\MiscUtils.h" />
+    <ClInclude Include="WorkLayer\kademlia\net\PacketTracking.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Prefs.h" />
+    <ClInclude Include="WorkLayer\kademlia\routing\RoutingBin.h" />
+    <ClInclude Include="WorkLayer\kademlia\routing\RoutingZone.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Search.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\SearchManager.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Tag.h" />
+    <ClInclude Include="WorkLayer\kademlia\utils\ThreadName.h" />
+    <ClInclude Include="WorkLayer\kademlia\kademlia\UDPFirewallTester.h" />
+    <ClInclude Include="WorkLayer\kademlia\utils\UInt128.h" />
+    <ClInclude Include="WorkLayer\AbstractFile.h" />
+    <ClInclude Include="WorkLayer\AICHSyncThread.h" />
+    <ClInclude Include="WorkLayer\AntiVirusIDs.h" />
+    <ClInclude Include="WorkLayer\ArchiveRecovery.h" />
+    <ClInclude Include="WorkLayer\AsyncProxySocketLayer.h" />
+    <ClInclude Include="WorkLayer\AsyncSocketEx.h" />
+    <ClInclude Include="WorkLayer\AsyncSocketExLayer.h" />
+    <ClInclude Include="WorkLayer\BetterSP2.h" />
+    <ClInclude Include="WorkLayer\CBase64Coding.hpp" />
+    <ClInclude Include="WorkLayer\ClientCredits.h" />
+    <ClInclude Include="WorkLayer\ClientList.h" />
+    <ClInclude Include="WorkLayer\ClientReqSocket.h" />
+    <ClInclude Include="WorkLayer\ClientUDPSocket.h" />
+    <ClInclude Include="WorkLayer\ClientVersionInfo.h" />
+    <ClInclude Include="WorkLayer\Collection.h" />
+    <ClInclude Include="WorkLayer\CollectionFile.h" />
+    <ClInclude Include="WorkLayer\CorruptionBlackBox.h" />
+    <ClInclude Include="WorkLayer\Database.h" />
+    <ClInclude Include="WorkLayer\DeadSourceList.h" />
+    <ClInclude Include="WorkLayer\Debug_FileSize.h" />
+    <ClInclude Include="WorkLayer\DebugHelpers.h" />
+    <ClInclude Include="WorkLayer\DLP.h" />
+    <ClInclude Include="WorkLayer\DownloadQueue.h" />
+    <ClInclude Include="WorkLayer\ED2KLink.h" />
+    <ClInclude Include="WorkLayer\Ed2kUpDownClient.h" />
+    <ClInclude Include="WorkLayer\EMClientReqSocket.h" />
+    <ClInclude Include="WorkLayer\EMSocket.h" />
+    <ClInclude Include="WorkLayer\emule.h" />
+    <ClInclude Include="WorkLayer\EmuleUpdater.h" />
+    <ClInclude Include="WorkLayer\EncryptedDatagramSocket.h" />
+    <ClInclude Include="WorkLayer\EncryptedStreamSocket.h" />
+    <ClInclude Include="WorkLayer\Exceptions.h" />
+    <ClInclude Include="WorkLayer\fileformat.h" />
+    <ClInclude Include="WorkLayer\FileMgr.h" />
+    <ClInclude Include="WorkLayer\FileMgrDB.h" />
+    <ClInclude Include="WorkLayer\FirewallOpener.h" />
+    <ClInclude Include="WorkLayer\FrameGrabThread.h" />
+    <ClInclude Include="WorkLayer\Friend.h" />
+    <ClInclude Include="WorkLayer\FriendList.h" />
+    <ClInclude Include="WorkLayer\GapSpace.h" />
+    <ClInclude Include="WorkLayer\GlobalVariable.h" />
+    <ClInclude Include="WorkLayer\GZipFile.h" />
+    <ClInclude Include="WorkLayer\http_chunk.h" />
+    <ClInclude Include="WorkLayer\IEMonitor.h" />
+    <ClInclude Include="WorkLayer\INetClient.h" />
+    <ClInclude Include="WorkLayer\ini2.h" />
+    <ClInclude Include="WorkLayer\IP2Country.h" />
+    <ClInclude Include="WorkLayer\IPFilter.h" />
+    <ClInclude Include="WorkLayer\IrcMain.h" />
+    <ClInclude Include="WorkLayer\IrcSocket.h" />
+    <ClInclude Include="WorkLayer\JavaScriptEscape.h" />
+    <ClInclude Include="WorkLayer\KnownFile.h" />
+    <ClInclude Include="WorkLayer\KnownFileList.h" />
+    <ClInclude Include="WorkLayer\langids.h" />
+    <ClInclude Include="WorkLayer\LastCommonRouteFinder.h" />
+    <ClInclude Include="WorkLayer\ListenSocket.h" />
+    <ClInclude Include="WorkLayer\Log.h" />
+    <ClInclude Include="WorkLayer\MapKey.h" />
+    <ClInclude Include="WorkLayer\MD4.h" />
+    <ClInclude Include="WorkLayer\MD5Sum.h" />
+    <ClInclude Include="WorkLayer\MediaInfo.h" />
+    <ClInclude Include="WorkLayer\MessageLog.h" />
+    <ClInclude Include="WorkLayer\MMServer.h" />
+    <ClInclude Include="WorkLayer\MMSocket.h" />
+    <ClInclude Include="WorkLayer\NextVersion.h" />
+    <ClInclude Include="WorkLayer\opcodes.h" />
+    <ClInclude Include="WorkLayer\otherfunctions.h" />
+    <ClInclude Include="WorkLayer\packets.h" />
+    <ClInclude Include="WorkLayer\parser.hpp" />
+    <ClInclude Include="WorkLayer\PartFile.h" />
+    <ClInclude Include="WorkLayer\PartFileConvert.h" />
+    <ClInclude Include="WorkLayer\PeerCacheClient.h" />
+    <ClInclude Include="WorkLayer\PeerCacheFinder.h" />
+    <ClInclude Include="WorkLayer\PeerCacheSocket.h" />
+    <ClInclude Include="WorkLayer\PeerLog.h" />
+    <ClInclude Include="WorkLayer\Pinger.h" />
+    <ClInclude Include="WorkLayer\PlayerMgr.h" />
+    <ClInclude Include="WorkLayer\Preferences.h" />
+    <ClInclude Include="WorkLayer\Preview.h" />
+    <ClInclude Include="WorkLayer\QArray.h" />
+    <ClInclude Include="WorkLayer\Quantize.h" />
+    <ClInclude Include="WorkLayer\RARFile.h" />
+    <ClInclude Include="WorkLayer\ResetButton.h" />
+    <ClInclude Include="WorkLayer\SafeFile.h" />
+    <ClInclude Include="WorkLayer\Scanner.h" />
+    <ClInclude Include="WorkLayer\Scheduler.h" />
+    <ClInclude Include="WorkLayer\SearchFile.h" />
+    <ClInclude Include="WorkLayer\SearchList.h" />
+    <ClInclude Include="WorkLayer\SecRunAsUser.h" />
+    <ClInclude Include="WorkLayer\SeeFileManager.h" />
+    <ClInclude Include="WorkLayer\server.h" />
+    <ClInclude Include="WorkLayer\ServerList.h" />
+    <ClInclude Include="WorkLayer\ServerSocket.h" />
+    <ClInclude Include="WorkLayer\SHA.h" />
+    <ClInclude Include="WorkLayer\SHAHashSet.h" />
+    <ClInclude Include="WorkLayer\SharedFileList.h" />
+    <ClInclude Include="WorkLayer\ShortcutManager.h" />
+    <ClInclude Include="WorkLayer\sockets.h" />
+    <ClInclude Include="WorkLayer\StatForServer.h" />
+    <ClInclude Include="WorkLayer\StatisticFile.h" />
+    <ClInclude Include="WorkLayer\Statistics.h" />
+    <ClInclude Include="WorkLayer\stdafx.h" />
+    <ClInclude Include="WorkLayer\StringConversion.h" />
+    <ClInclude Include="WorkLayer\SyncHelper.h" />
+    <ClInclude Include="WorkLayer\ThreadsMgr.h" />
+    <ClInclude Include="WorkLayer\ThrottledSocket.h" />
+    <ClInclude Include="WorkLayer\TimeTick.h" />
+    <ClInclude Include="WorkLayer\TraceEvent.h" />
+    <ClInclude Include="WorkLayer\TransferCompletedProcessor.h" />
+    <ClInclude Include="WorkLayer\types.h" />
+    <ClInclude Include="WorkLayer\UDPSocket.h" />
+    <ClInclude Include="WorkLayer\UIMessage.h" />
+    <ClInclude Include="WorkLayer\UpdateInfo.h" />
+    <ClInclude Include="WorkLayer\UpdaterThread.h" />
+    <ClInclude Include="WorkLayer\updownclient.h" />
+    <ClInclude Include="WorkLayer\UploadBandwidthThrottler.h" />
+    <ClInclude Include="WorkLayer\UploadQueue.h" />
+    <ClInclude Include="WorkLayer\UrlSite.h" />
+    <ClInclude Include="WorkLayer\Version.h" />
+    <ClInclude Include="WorkLayer\VistaDefines.h" />
+    <ClInclude Include="WorkLayer\WebServer.h" />
+    <ClInclude Include="WorkLayer\WebServices.h" />
+    <ClInclude Include="WorkLayer\WebSocket.h" />
+    <ClInclude Include="WorkLayer\ZIPFile.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\NatSocket.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\NatThread.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\SourceExchangeNAT.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseByBuddy.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseBySourceExchange.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseBySvr.h" />
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseStrategy.h" />
+    <ClInclude Include="WorkLayer\WordFilter\WordFilter.h" />
+    <ClInclude Include="WorkLayer\DNSManager.h" />
+    <ClInclude Include="WorkLayer\FtpClient.h" />
+    <ClInclude Include="WorkLayer\FtpClientReqSocket.h" />
+    <ClInclude Include="WorkLayer\HttpClient.h" />
+    <ClInclude Include="WorkLayer\HttpClientReqSocket.h" />
+    <ClInclude Include="WorkLayer\SendGetUrlReqSocket.h" />
+    <ClInclude Include="WorkLayer\SourceURL.h" />
+    <ClInclude Include="WorkLayer\TimerOp_UrlClientRetry.h" />
+    <ClInclude Include="WorkLayer\TimerOpBase.h" />
+    <ClInclude Include="WorkLayer\UrlSrcFromSvrMgr.h" />
+    <ClInclude Include="WorkLayer\UrlSrcGetFromSvrSocket.h" />
+    <ClInclude Include="WorkLayer\Irc\IrcMain.h" />
+    <ClInclude Include="WorkLayer\Irc\IrcSocket.h" />
+    <ClInclude Include="WorkLayer\IEFilter.h" />
+    <ClInclude Include="WorkLayer\IEFilterMgr.h" />
+    <ClInclude Include="WorkLayer\UPnP\UPnpAsynThreads.h" />
+    <ClInclude Include="WorkLayer\UPnP\UPnpError.h" />
+    <ClInclude Include="WorkLayer\UPnP\UPnpMgr.h" />
+    <ClInclude Include="WorkLayer\UPnP\UPnpNat.h" />
+    <ClInclude Include="WorkLayer\UPnP\UPnpNatMapping.h" />
+    <ClInclude Include="WorkLayer\UPnP\UPnpNatMappingKey.h" />
+    <ClInclude Include="WorkLayer\Internal\InternalSocket.h" />
+    <ClInclude Include="WorkLayer\CheckConflict.h" />
+    <ClInclude Include="WorkLayer\mdump.h" />
+    <ClInclude Include="WorkLayer\MemPool\MemPool.h" />
+    <ClInclude Include="WorkLayer\MemPool\MemPoolMgr.h" />
+    <ClInclude Include="WorkLayer\MetaLink\MetalinkExecutor.h" />
+    <ClInclude Include="WorkLayer\MetaLink\MetaLinkPacker.h" />
+    <ClInclude Include="WorkLayer\MetaLink\MetaLinkParser.h" />
+    <ClInclude Include="WorkLayer\MetaLink\MetaLinkQuerySocket.h" />
+    <ClInclude Include="UILayer\3DPreviewControl.h" />
+    <ClInclude Include="UILayer\AddFriend.h" />
+    <ClInclude Include="UILayer\AddSourceDlg.h" />
+    <ClInclude Include="UILayer\AdvanceTabWnd.h" />
+    <ClInclude Include="UILayer\AffirmDeleteDlg.h" />
+    <ClInclude Include="UILayer\AfxBeginMsgMapTemplate.h" />
+    <ClInclude Include="UILayer\ArchivePreviewDlg.h" />
+    <ClInclude Include="UILayer\BarShader.h" />
+    <ClInclude Include="UILayer\BrowserToolbarInfo.h" />
+    <ClInclude Include="UILayer\BufferMovieDlg.h" />
+    <ClInclude Include="UILayer\CatDialog.h" />
+    <ClInclude Include="UILayer\ChatSelector.h" />
+    <ClInclude Include="UILayer\ChatWnd.h" />
+    <ClInclude Include="UILayer\CIF.h" />
+    <ClInclude Include="UILayer\ClientDetailDialog.h" />
+    <ClInclude Include="UILayer\ClosableTabCtrl.h" />
+    <ClInclude Include="UILayer\CloseModeDlg.h" />
+    <ClInclude Include="UILayer\CollectionCreateDialog.h" />
+    <ClInclude Include="UILayer\CollectionViewDialog.h" />
+    <ClInclude Include="UILayer\ColorButton.h" />
+    <ClInclude Include="UILayer\ColorFrameCtrl.h" />
+    <ClInclude Include="UILayer\ColourPopup.h" />
+    <ClInclude Include="UILayer\ComboBoxEx2.h" />
+    <ClInclude Include="UILayer\CommentDialog.h" />
+    <ClInclude Include="UILayer\CommentDialogLst.h" />
+    <ClInclude Include="UILayer\CoolBarCtrl.h" />
+    <ClInclude Include="UILayer\CreateCheckboxImageList.h" />
+    <ClInclude Include="UILayer\CreditsDlg.h" />
+    <ClInclude Include="UILayer\CreditsThread.h" />
+    <ClInclude Include="UILayer\CustomAutoComplete.h" />
+    <ClInclude Include="UILayer\DetailInfo.h" />
+    <ClInclude Include="UILayer\DialogMinTrayBtn.h" />
+    <ClInclude Include="UILayer\DirectDownloadDlg.h" />
+    <ClInclude Include="UILayer\DirectoryTreeCtrl.h" />
+    <ClInclude Include="UILayer\DlgMainTabAdvance.h" />
+    <ClInclude Include="UILayer\DlgMaintabDownload.h" />
+    <ClInclude Include="UILayer\DlgMainTabResource.h" />
+    <ClInclude Include="UILayer\DlgMainTabShare.h" />
+    <ClInclude Include="UILayer\DlgMainTabSidePanel.h" />
+    <ClInclude Include="UILayer\DownloadDetailDlg.h" />
+    <ClInclude Include="UILayer\DownloadTabCtrl.h" />
+    <ClInclude Include="UILayer\Drawgdix.h" />
+    <ClInclude Include="UILayer\DropDownButton.h" />
+    <ClInclude Include="UILayer\DropTarget.h" />
+    <ClInclude Include="UILayer\ED2kLinkDlg.h" />
+    <ClInclude Include="UILayer\EditDelayed.h" />
+    <ClInclude Include="UILayer\EditX.h" />
+    <ClInclude Include="UILayer\emuleDlg.h" />
+    <ClInclude Include="UILayer\EnBitmap.h" />
+    <ClInclude Include="UILayer\FaceManager.h" />
+    <ClInclude Include="UILayer\FileDetailDialog.h" />
+    <ClInclude Include="UILayer\FileDetailDialogInfo.h" />
+    <ClInclude Include="UILayer\FileDetailDialogName.h" />
+    <ClInclude Include="UILayer\FileHashKey.h" />
+    <ClInclude Include="UILayer\FileInfoDialog.h" />
+    <ClInclude Include="UILayer\FindWnd.h" />
+    <ClInclude Include="UILayer\GDIThread.h" />
+    <ClInclude Include="UILayer\HelpIDs.h" />
+    <ClInclude Include="UILayer\HighColorTab.hpp" />
+    <ClInclude Include="UILayer\HtmlCtrl.h" />
+    <ClInclude Include="UILayer\HTRichEditCtrl.h" />
+    <ClInclude Include="UILayer\HttpDownloadDlg.h" />
+    <ClInclude Include="UILayer\HyperTextCtrl.h" />
+    <ClInclude Include="UILayer\IconStatic.h" />
+    <ClInclude Include="UILayer\IEManagerWnd.h" />
+    <ClInclude Include="UILayer\IESecurity.h" />
+    <ClInclude Include="UILayer\InputBox.h" />
+    <ClInclude Include="UILayer\IPFilterDlg.h" />
+    <ClInclude Include="UILayer\KadContactHistogramCtrl.h" />
+    <ClInclude Include="UILayer\KademliaWnd.h" />
+    <ClInclude Include="UILayer\LayeredWindowHelperST.h" />
+    <ClInclude Include="UILayer\ListBoxST.h" />
+    <ClInclude Include="UILayer\ListCtrlEditable.h" />
+    <ClInclude Include="UILayer\ListCtrlItemWalk.h" />
+    <ClInclude Include="UILayer\ListCtrlX.h" />
+    <ClInclude Include="UILayer\ListViewSearchDlg.h" />
+    <ClInclude Include="UILayer\ListViewWalkerPropertySheet.h" />
+    <ClInclude Include="UILayer\Localizee.h" />
+    <ClInclude Include="UILayer\LocalizeMgr.h" />
+    <ClInclude Include="UILayer\MainTabBkDraw.h" />
+    <ClInclude Include="UILayer\MainTabWnd.h" />
+    <ClInclude Include="UILayer\MemDC.h" />
+    <ClInclude Include="UILayer\MenuCmds.h" />
+    <ClInclude Include="UILayer\MenuXP.h" />
+    <ClInclude Include="UILayer\MetaDataDlg.h" />
+    <ClInclude Include="UILayer\MeterIcon.h" />
+    <ClInclude Include="UILayer\MiniMule.h" />
+    <ClInclude Include="UILayer\MuleStatusBarCtrl.h" />
+    <ClInclude Include="UILayer\NetworkInfoDlg.h" />
+    <ClInclude Include="UILayer\NumericEdit.h" />
+    <ClInclude Include="UILayer\OScopeCtrl.h" />
+    <ClInclude Include="UILayer\PageTabBkDraw.h" />
+    <ClInclude Include="UILayer\PerfLog.h" />
+    <ClInclude Include="UILayer\PopMule.h" />
+    <ClInclude Include="UILayer\PPgAntiLeech.h" />
+    <ClInclude Include="UILayer\PPgConnection.h" />
+    <ClInclude Include="UILayer\PPgDebug.h" />
+    <ClInclude Include="UILayer\PPgDirectories.h" />
+    <ClInclude Include="UILayer\PPgDisplay.h" />
+    <ClInclude Include="UILayer\PPgDownloadSecurity.h" />
+    <ClInclude Include="UILayer\PPgFiles.h" />
+    <ClInclude Include="UILayer\PPgGeneral.h" />
+    <ClInclude Include="UILayer\PPGProxy.h" />
+    <ClInclude Include="UILayer\PPgScheduler.h" />
+    <ClInclude Include="UILayer\PPgServer.h" />
+    <ClInclude Include="UILayer\PPgTweaks.h" />
+    <ClInclude Include="UILayer\PPgWebServer.h" />
+    <ClInclude Include="UILayer\PreferencesDlg.h" />
+    <ClInclude Include="UILayer\PreviewDlg.h" />
+    <ClInclude Include="UILayer\ProgressCtrlX.h" />
+    <ClInclude Include="UILayer\ProgressStatic.h" />
+    <ClInclude Include="UILayer\PShtWiz1.h" />
+    <ClInclude Include="UILayer\ResetButton.h" />
+    <ClInclude Include="UILayer\RichEditCtrlX.h" />
+    <ClInclude Include="UILayer\RichEditStream.h" />
+    <ClInclude Include="UILayer\ScanDlg.h" />
+    <ClInclude Include="UILayer\SearchBarCtrl.h" />
+    <ClInclude Include="UILayer\SearchButton.h" />
+    <ClInclude Include="UILayer\SearchDlg.h" />
+    <ClInclude Include="UILayer\SearchEdit.h" />
+    <ClInclude Include="UILayer\SearchExpr.h" />
+    <ClInclude Include="UILayer\SearchParams.h" />
+    <ClInclude Include="UILayer\SearchParamsWnd.h" />
+    <ClInclude Include="UILayer\SearchResultsWnd.h" />
+    <ClInclude Include="UILayer\ServerWnd.h" />
+    <ClInclude Include="UILayer\SharedDirsTreeCtrl.h" />
+    <ClInclude Include="UILayer\SharedFilesWnd.h" />
+    <ClInclude Include="UILayer\ShareFilesCountStatic.h" />
+    <ClInclude Include="UILayer\ShareFileSelect.h" />
+    <ClInclude Include="UILayer\SpeedMeter.h" />
+    <ClInclude Include="UILayer\SpeedMeterDlg.h" />
+    <ClInclude Include="UILayer\SplashScreen.h" />
+    <ClInclude Include="UILayer\SplashWndThread.h" />
+    <ClInclude Include="UILayer\SplitterControl.h" />
+    <ClInclude Include="UILayer\SplitterControlEx.h" />
+    <ClInclude Include="UILayer\StatisticsDlg.h" />
+    <ClInclude Include="UILayer\StatisticsInfo.h" />
+    <ClInclude Include="UILayer\StatisticsTree.h" />
+    <ClInclude Include="UILayer\tabctrl.hpp" />
+    <ClInclude Include="UILayer\TaskbarNotifier.h" />
+    <ClInclude Include="UILayer\TextToSpeech.h" />
+    <ClInclude Include="UILayer\TitleMenu.h" />
+    <ClInclude Include="UILayer\ToolTipCtrlX.h" />
+    <ClInclude Include="UILayer\TransferWnd.h" />
+    <ClInclude Include="UILayer\TreeOptionsCtrl.h" />
+    <ClInclude Include="UILayer\TreeOptionsCtrlEx.h" />
+    <ClInclude Include="UILayer\TreePropSheet.h" />
+    <ClInclude Include="UILayer\TreePropSheetPgFrame.h" />
+    <ClInclude Include="UILayer\TreePropSheetPgFrameDef.h" />
+    <ClInclude Include="UILayer\UpLoading.h" />
+    <ClInclude Include="UILayer\UserComment.h" />
+    <ClInclude Include="UILayer\UserMsgs.h" />
+    <ClInclude Include="UILayer\vcconfig.h" />
+    <ClInclude Include="UILayer\VisualStylesXP.h" />
+    <ClInclude Include="UILayer\WBNotifyReceiver.h" />
+    <ClInclude Include="UILayer\WebBrowserWnd.h" />
+    <ClInclude Include="UILayer\Wizard.h" />
+    <ClInclude Include="UILayer\WndMgr.h" />
+    <ClInclude Include="UILayer\Common\BkDraw.h" />
+    <ClInclude Include="UILayer\Common\Draw.h" />
+    <ClInclude Include="UILayer\Common\Publisher.h" />
+    <ClInclude Include="UILayer\Common\RectDraw.h" />
+    <ClInclude Include="UILayer\Common\ScopeTimeCost.h" />
+    <ClInclude Include="UILayer\Common\SingleInst.h" />
+    <ClInclude Include="UILayer\Common\Tools.h" />
+    <ClInclude Include="UILayer\Common\Util.h" />
+    <ClInclude Include="UILayer\Common\UtilMisc.h" />
+    <ClInclude Include="UILayer\Common\UtilUI.h" />
+    <ClInclude Include="UILayer\CtrlEx\Joint.h" />
+    <ClInclude Include="UILayer\CtrlEx\Resizee.h" />
+    <ClInclude Include="UILayer\CtrlEx\Resizer.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabBar.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_Cake.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_MainButton.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_MainTabBn.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_Normal.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_NormalCloseable.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_WebBrowser.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItem_Wnd.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabItemAffector.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabWnd.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabWnd_Cake.h" />
+    <ClInclude Include="UILayer\CtrlEx\TabWndDef.h" />
+    <ClInclude Include="UILayer\CtrlEx\ToolTipCtrlZ.h" />
+    <ClInclude Include="UILayer\Commands\CmdFuncs.h" />
+    <ClInclude Include="UILayer\Commands\CmdGotoPage.h" />
+    <ClInclude Include="UILayer\Commands\CmdMainTabOp.h" />
+    <ClInclude Include="UILayer\Functions\AddTask\AddTaskDoc.h" />
+    <ClInclude Include="UILayer\Functions\AddTask\AddTaskLinksEdit.h" />
+    <ClInclude Include="UILayer\Functions\AddTask\AddTaskListCtrl.h" />
+    <ClInclude Include="UILayer\Functions\AddTask\DlgAddTask.h" />
+    <ClInclude Include="UILayer\ToolbarCtrls\BrowserToolbarCtrl.h" />
+    <ClInclude Include="UILayer\ToolbarCtrls\TbcAdvance.h" />
+    <ClInclude Include="UILayer\ToolbarCtrls\TbcDownload.h" />
+    <ClInclude Include="UILayer\ToolbarCtrls\TbcShare.h" />
+    <ClInclude Include="UILayer\ToolbarCtrls\ToolBarCtrlX.h" />
+    <ClInclude Include="UILayer\ToolbarCtrls\ToolBarCtrlZ.h" />
+    <ClInclude Include="UILayer\Lists\ClientListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\CollectionListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\CommentListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\DownloadClientsCtrl.h" />
+    <ClInclude Include="UILayer\Lists\DownloadedListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\DownloadListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\FriendListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\KadContactListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\KadSearchListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\LogListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\MuleListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\QueueListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\SearchListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\ServerListCtrl.h" />
+    <ClInclude Include="UILayer\Lists\SharedFilesCtrl.h" />
+    <ClInclude Include="UILayer\Lists\UploadListCtrl.h" />
+    <ClInclude Include="UILayer\SMIRC\IrcChannelListCtrl.h" />
+    <ClInclude Include="UILayer\SMIRC\IrcChannelTabCtrl.h" />
+    <ClInclude Include="UILayer\SMIRC\IrcNickListCtrl.h" />
+    <ClInclude Include="UILayer\SMIRC\IrcWnd.h" />
+    <ClInclude Include="UILayer\TrayMenu\GradientStatic.h" />
+    <ClInclude Include="UILayer\TrayMenu\MuleSystrayDlg.h" />
+    <ClInclude Include="UILayer\TrayMenu\TrayDialog.h" />
+    <ClInclude Include="UILayer\TrayMenu\TrayMenuBtn.h" />
+    <ClInclude Include="HotKey\HotKeyEdit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\all.ico" />
+    <Image Include="res\ArchivePreview.ico" />
+    <Image Include="res\bold.ico" />
+    <Image Include="res\BTBack.png" />
+    <Image Include="res\BTBack_D.png" />
+    <Image Include="res\BTForward.png" />
+    <Image Include="res\BTForward_D.png" />
+    <Image Include="res\BTRefresh.png" />
+    <Image Include="res\BTRefresh_D.png" />
+    <Image Include="res\BTStop.png" />
+    <Image Include="res\BTStop_D.png" />
+    <Image Include="res\BTVeryCD.png" />
+    <Image Include="res\BTVeryCD_D.png" />
+    <Image Include="res\Cancel.ico" />
+    <Image Include="res\Category.ico" />
+    <Image Include="res\Chat.ico" />
+    <Image Include="res\Checkmark.ico" />
+    <Image Include="res\CheckNewVersion.ico" />
+    <Image Include="res\clear1.ico" />
+    <Image Include="res\clear2.ico" />
+    <Image Include="res\Client0.ico" />
+    <Image Include="res\Client1.ico" />
+    <Image Include="res\Client2.ico" />
+    <Image Include="res\Client3.ico" />
+    <Image Include="res\Client4.ico" />
+    <Image Include="res\ClientaMule.ico" />
+    <Image Include="res\ClientaMulePlus.ico" />
+    <Image Include="res\ClientCompatible.ico" />
+    <Image Include="res\ClientCompatiblePlus.ico" />
+    <Image Include="res\ClientDefault.ico" />
+    <Image Include="res\ClientDefaultPlus.ico" />
+    <Image Include="res\ClienteDonkeyHybrid.ico" />
+    <Image Include="res\ClienteDonkeyHybridPlus.ico" />
+    <Image Include="res\ClientlPhant.ico" />
+    <Image Include="res\ClientlPhantPlus.ico" />
+    <Image Include="res\ClientMLDonkey.ico" />
+    <Image Include="res\ClientMLDonkeyPlus.ico" />
+    <Image Include="res\Clientobfuovl.ICO" />
+    <Image Include="res\ClientSecureHashOvl.ico" />
+    <Image Include="res\Clientsecurehasobfuhovl.ICO" />
+    <Image Include="res\ClientShareaza.ico" />
+    <Image Include="res\ClientShareazaPlus.ico" />
+    <Image Include="res\ClientsKnown.ico" />
+    <Image Include="res\ClientsOnQueue.ico" />
+    <Image Include="res\Close.ico" />
+    <Image Include="res\Collapse.ico" />
+    <Image Include="res\colour.ico" />
+    <Image Include="res\Comment.ico" />
+    <Image Include="res\ConnectDo.ico" />
+    <Image Include="res\ConnectDrop.ico" />
+    <Image Include="res\Connected.gif" />
+    <Image Include="res\ConnectedHighHigh.gif" />
+    <Image Include="res\ConnectedHighHigh.ico" />
+    <Image Include="res\ConnectedHighLow.gif" />
+    <Image Include="res\ConnectedHighLow.ico" />
+    <Image Include="res\ConnectedHighNot.gif" />
+    <Image Include="res\ConnectedHighNot.ico" />
+    <Image Include="res\ConnectedLowHigh.gif" />
+    <Image Include="res\ConnectedLowHigh.ico" />
+    <Image Include="res\ConnectedLowLow.gif" />
+    <Image Include="res\ConnectedLowLow.ico" />
+    <Image Include="res\ConnectedLowNot.gif" />
+    <Image Include="res\ConnectedLowNot.ico" />
+    <Image Include="res\ConnectedNotHigh.gif" />
+    <Image Include="res\ConnectedNotHigh.ico" />
+    <Image Include="res\ConnectedNotLow.gif" />
+    <Image Include="res\ConnectedNotLow.ico" />
+    <Image Include="res\ConnectedNotNot.gif" />
+    <Image Include="res\ConnectedNotNot.ico" />
+    <Image Include="res\Connection.ico" />
+    <Image Include="res\ConnectStop.ico" />
+    <Image Include="res\ConnectSvr.png" />
+    <Image Include="res\Contact0.ico" />
+    <Image Include="res\Contact1.ico" />
+    <Image Include="res\Contact2.ico" />
+    <Image Include="res\Contact3.ico" />
+    <Image Include="res\Contact4.ico" />
+    <Image Include="res\Convert.ico" />
+    <Image Include="res\Copy.ico" />
+    <Image Include="res\CopySelected.ico" />
+    <Image Include="res\CopyVisible.ico" />
+    <Image Include="res\Delete.ico" />
+    <Image Include="res\DeleteAll.ico" />
+    <Image Include="res\DeleteSelected.ico" />
+    <Image Include="res\DetailComment.png" />
+    <Image Include="res\DetailInfo.png" />
+    <Image Include="res\DetailStat.png" />
+    <Image Include="res\Face\DetailTab_A.png" />
+    <Image Include="res\Face\DetailTab_H.png" />
+    <Image Include="res\Face\DetailTab_N.png" />
+    <Image Include="res\DetailUpload.png" />
+    <Image Include="res\DirectDownload.ico" />
+    <Image Include="res\DisconnectSvr.png" />
+    <Image Include="res\Display.ico" />
+    <Image Include="res\Download.gif" />
+    <Image Include="res\Download.ico" />
+    <Image Include="res\DownloadFiles.ico" />
+    <Image Include="res\Downloads.ico" />
+    <Image Include="res\DownPlay.ico" />
+    <Image Include="res\eD2kLink.ico" />
+    <Image Include="res\eD2kLinkPaste.ico" />
+    <Image Include="res\Empty.ico" />
+    <Image Include="res\emuleColl.ico" />
+    <Image Include="res\emuleCollAdd.ico" />
+    <Image Include="res\emuleCollectionFileType.ico" />
+    <Image Include="res\emuleCollEdit.ico" />
+    <Image Include="res\emuleCollSearch.ico" />
+    <Image Include="res\emuleCollView.ico" />
+    <Image Include="res\Exit.ico" />
+    <Image Include="res\ExpandAll.ico" />
+    <Image Include="res\ExpandAll2.ico" />
+    <Image Include="res\ExportAll.ico" />
+    <Image Include="res\favicon.ico" />
+    <Image Include="res\File.ico" />
+    <Image Include="res\FileComments.ico" />
+    <Image Include="res\FileCommentsOvl.ico" />
+    <Image Include="res\FileDonkey.ico" />
+    <Image Include="res\FileInfo.gif" />
+    <Image Include="res\FileInfo.ico" />
+    <Image Include="res\FileOpen.ico" />
+    <Image Include="res\FilePriority.ico" />
+    <Image Include="res\FileRating0.ico" />
+    <Image Include="res\FileRating1.ico" />
+    <Image Include="res\FileRating2.ico" />
+    <Image Include="res\FileRating3.ico" />
+    <Image Include="res\FileRating4.ico" />
+    <Image Include="res\FileRating5.ico" />
+    <Image Include="res\FileRename.ico" />
+    <Image Include="res\FileSharedKad.ico" />
+    <Image Include="res\FileSharedServer.ico" />
+    <Image Include="res\FileSystem.ico" />
+    <Image Include="res\FileTypeAny.ico" />
+    <Image Include="res\FileTypeArchive.ico" />
+    <Image Include="res\FileTypeAudio.ico" />
+    <Image Include="res\FileTypeCDImage.ico" />
+    <Image Include="res\FileTypeDocument.ico" />
+    <Image Include="res\FileTypeEmuleCollection.ico" />
+    <Image Include="res\FileTypePicture.ico" />
+    <Image Include="res\FileTypeProgram.ico" />
+    <Image Include="res\FileTypeVideo.ico" />
+    <Image Include="res\Find.ico" />
+    <Image Include="res\FolderOpen.gif" />
+    <Image Include="res\FolderOpen.ico" />
+    <Image Include="res\Folders.ico" />
+    <Image Include="res\Friend.ico" />
+    <Image Include="res\Friends1.ico" />
+    <Image Include="res\Friends2.ico" />
+    <Image Include="res\Friends3.ico" />
+    <Image Include="res\FriendSlot.ico" />
+    <Image Include="res\Global.ico" />
+    <Image Include="res\HardDisk.gif" />
+    <Image Include="res\HardDisk.ico" />
+    <Image Include="res\Help.ico" />
+    <Image Include="res\Import.ico" />
+    <Image Include="res\Incoming.ico" />
+    <Image Include="res\IncomingFiles.ico" />
+    <Image Include="res\incomplete.ico" />
+    <Image Include="res\Info.ico" />
+    <Image Include="res\IPFilter.ico" />
+    <Image Include="res\IRC.ico" />
+    <Image Include="res\IRCClipboard.ico" />
+    <Image Include="res\Kad.ico" />
+    <Image Include="res\KadBootstrap.ico" />
+    <Image Include="res\KadContactList.ico" />
+    <Image Include="res\KadCurrentSearches.ico" />
+    <Image Include="res\KadFileSearch.ico" />
+    <Image Include="res\KadNodeSearch.ico" />
+    <Image Include="res\KadStoreFile.ico" />
+    <Image Include="res\KadStoreWord.ico" />
+    <Image Include="res\KadWordSearch.ico" />
+    <Image Include="res\leecher.ICO" />
+    <Image Include="res\ListAdd.ico" />
+    <Image Include="res\ListRemove.ico" />
+    <Image Include="res\ListViewSortDown.bmp" />
+    <Image Include="res\ListViewSortDown2x.bmp" />
+    <Image Include="res\ListViewSortUp.bmp" />
+    <Image Include="res\ListViewSortUp2x.bmp" />
+    <Image Include="res\Log.ico" />
+    <Image Include="res\Logo.jpg" />
+    <Image Include="res\Face\MainBtn_A_L.png" />
+    <Image Include="res\Face\MainBtn_A_M.png" />
+    <Image Include="res\Face\MainBtn_A_R.png" />
+    <Image Include="res\Face\MainBtn_H_L.png" />
+    <Image Include="res\Face\MainBtn_H_M.png" />
+    <Image Include="res\Face\MainBtn_H_R.png" />
+    <Image Include="res\Face\MainBtn_N_L.png" />
+    <Image Include="res\Face\MainBtn_N_M.png" />
+    <Image Include="res\Face\MainBtn_N_R.png" />
+    <Image Include="res\MainTab_Advanced_A.png" />
+    <Image Include="res\MainTab_Advanced_N.png" />
+    <Image Include="res\MainTab_Browser_A.png" />
+    <Image Include="res\MainTab_Browser_N.png" />
+    <Image Include="res\MainTab_Download_A.png" />
+    <Image Include="res\MainTab_Download_N.png" />
+    <Image Include="res\MainTab_Share_A.png" />
+    <Image Include="res\MainTab_Share_N.png" />
+    <Image Include="res\Face\MainTabBk.png" />
+    <Image Include="res\Face\MainTabMore_H.png" />
+    <Image Include="res\Face\MainTabMore_N.png" />
+    <Image Include="res\Face\MainTabMore_P.png" />
+    <Image Include="res\MediaInfo.ico" />
+    <Image Include="res\Message.ico" />
+    <Image Include="res\MessagePending.ico" />
+    <Image Include="res\Messages.ico" />
+    <Image Include="res\MetaData.ico" />
+    <Image Include="res\MiniMuleBack.gif" />
+    <Image Include="res\Mule.ico" />
+    <Image Include="res\mule_wiz_hdr.gif" />
+    <Image Include="res\NavigateBack.ico" />
+    <Image Include="res\NavigateForward.ico" />
+    <Image Include="res\Notifications.ico" />
+    <Image Include="res\Options.png" />
+    <Image Include="res\Face\PageTab_A_L.png" />
+    <Image Include="res\Face\PageTab_A_M.png" />
+    <Image Include="res\Face\PageTab_A_R.png" />
+    <Image Include="res\Face\PageTab_H_L.png" />
+    <Image Include="res\Face\PageTab_H_M.png" />
+    <Image Include="res\Face\PageTab_H_R.png" />
+    <Image Include="res\Face\PageTab_N_L.png" />
+    <Image Include="res\Face\PageTab_N_M.png" />
+    <Image Include="res\Face\PageTab_N_R.png" />
+    <Image Include="res\Face\PageTabBk.png" />
+    <Image Include="res\Pause.ico" />
+    <Image Include="res\PeerLog.png" />
+    <Image Include="res\Preferences.gif" />
+    <Image Include="res\Preferences.ico" />
+    <Image Include="res\Preview.ico" />
+    <Image Include="res\Priority.ico" />
+    <Image Include="res\PriorityAuto.ico" />
+    <Image Include="res\PriorityHigh.ico" />
+    <Image Include="res\PriorityLow.ico" />
+    <Image Include="res\PriorityNormal.ico" />
+    <Image Include="res\Proxy.ico" />
+    <Image Include="res\Rating.ico" />
+    <Image Include="res\RatingBad.ico" />
+    <Image Include="res\Records.ico" />
+    <Image Include="res\Reloads.ico" />
+    <Image Include="res\Rename.ico" />
+    <Image Include="res\resetformat.ico" />
+    <Image Include="res\Restore.ico" />
+    <Image Include="res\RestoreWindow.gif" />
+    <Image Include="res\RestoreWindow.ico" />
+    <Image Include="res\Scheduler.ico" />
+    <Image Include="res\Search.ico" />
+    <Image Include="res\Search_type_1.ico" />
+    <Image Include="res\Search_type_2.ico" />
+    <Image Include="res\Face\Searchbar_ico.png" />
+    <Image Include="res\Face\SearchBarEdit_L.png" />
+    <Image Include="res\Face\SearchBarEdit_M.png" />
+    <Image Include="res\Face\SearchBarEdit_R.png" />
+    <Image Include="res\Face\SearchBtn_H.png" />
+    <Image Include="res\Face\SearchBtn_N.png" />
+    <Image Include="res\Face\SearchBtn_P.png" />
+    <Image Include="res\SearchEdit.ico" />
+    <Image Include="res\SearchGlobalActive.ico" />
+    <Image Include="res\SearchKad.ico" />
+    <Image Include="res\SearchKadActive.ico" />
+    <Image Include="res\SearchParams.ico" />
+    <Image Include="res\SearchResults.ico" />
+    <Image Include="res\SearchServerActive.ico" />
+    <Image Include="res\Security.ico" />
+    <Image Include="res\Server.ico" />
+    <Image Include="res\ServerAdd.ico" />
+    <Image Include="res\ServerInfo.ico" />
+    <Image Include="res\ServerList.ico" />
+    <Image Include="res\ServerSearch.ico" />
+    <Image Include="res\ServersUpdate.ico" />
+    <Image Include="res\SharedFiles.ico" />
+    <Image Include="res\SharedFilesList.ico" />
+    <Image Include="res\ShareDirs.ico" />
+    <Image Include="res\Face\ShareFileCount_L.bmp" />
+    <Image Include="res\Face\ShareFileCount_M.bmp" />
+    <Image Include="res\Face\ShareFileCount_R.bmp" />
+    <Image Include="res\ShareFiles.ico" />
+    <Image Include="res\Shield.ico" />
+    <Image Include="res\Speed.ico" />
+    <Image Include="res\SpeedMax.ico" />
+    <Image Include="res\SpeedMin.ico" />
+    <Image Include="res\Face\Spliter_H.png" />
+    <Image Include="res\Face\Spliter_V.png" />
+    <Image Include="res\SplitWindow.ico" />
+    <Image Include="res\Start.ico" />
+    <Image Include="res\Statistics.ico" />
+    <Image Include="res\StatisticsDetail.ico" />
+    <Image Include="res\StatsCumulative.ico" />
+    <Image Include="res\StatsDay.ico" />
+    <Image Include="res\StatsGeneric.ico" />
+    <Image Include="res\StatsMonth.ico" />
+    <Image Include="res\StatsProjected.ico" />
+    <Image Include="res\StatsTime.ico" />
+    <Image Include="res\StatsYear.ico" />
+    <Image Include="res\Stop.ico" />
+    <Image Include="res\TaskbarNotifier.gif" />
+    <Image Include="res\TbNewTask.png" />
+    <Image Include="res\TbNewTask_D.png" />
+    <Image Include="res\TbOpenFile.png" />
+    <Image Include="res\TbOpenFile_D.png" />
+    <Image Include="res\TbOpenFolder.png" />
+    <Image Include="res\TbOpenFolder_D.png" />
+    <Image Include="res\TbPause.png" />
+    <Image Include="res\TbPause_D.png" />
+    <Image Include="res\TbRemove.png" />
+    <Image Include="res\TbRemove_D.png" />
+    <Image Include="res\TbRename.png" />
+    <Image Include="res\TbRename_D.png" />
+    <Image Include="res\TbStart.png" />
+    <Image Include="res\TbStart_D.png" />
+    <Image Include="res\TbStop.png" />
+    <Image Include="res\TbStop_D.png" />
+    <Image Include="res\Tools.ico" />
+    <Image Include="res\Transfer.ico" />
+    <Image Include="res\TransferUpDown.ico" />
+    <Image Include="res\TrayBtnBlue.bmp" />
+    <Image Include="res\TrayBtnHomestead.bmp" />
+    <Image Include="res\TrayBtnMetallic.bmp" />
+    <Image Include="res\TrayConnected.ico" />
+    <Image Include="res\TrayDisconnected.ico" />
+    <Image Include="res\TrayLowID.ico" />
+    <Image Include="res\Tweak.ico" />
+    <Image Include="res\underline.ico" />
+    <Image Include="res\Up0down0.ico" />
+    <Image Include="res\Up0down1.ico" />
+    <Image Include="res\Up1down0.ico" />
+    <Image Include="res\Up1down1.ico" />
+    <Image Include="res\Upload.gif" />
+    <Image Include="res\Upload.ico" />
+    <Image Include="res\User.ico" />
+    <Image Include="res\UserAdd.ico" />
+    <Image Include="res\UserDelete.ico" />
+    <Image Include="res\UserDetails.ico" />
+    <Image Include="res\UserFiles.ico" />
+    <Image Include="res\UserMessage.ico" />
+    <Image Include="res\Web.ico" />
+    <Image Include="res\webbrowser.ico" />
+    <Image Include="res\wiz1_wat.bmp" />
+    <Image Include="res\Wizard.ico" />
+    <Image Include="res\Wizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\emule.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="emule.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\emule.rc2" />
+    <None Include="res\InetDownload.avi" />
+    <None Include="res\MiniMule.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\PopMule.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\veryearth.avi" />
+    <None Include="res\WideCharLowerMap.bin" />
+    <CustomBuild Include="WorkLayer\MD4_asm.asm">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="WorkLayer\SHA_asm.asm">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml.exe /c /Cx /coff /Fo $(IntDir) "%(FullPath)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="UILayer\Flex.skl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WorkLayer\kademlia\io\BufferedFileIO.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\ByteIO.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\routing\Contact.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\DataIO.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Entry.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\FileIO.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Indexed.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\IOException.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Kademlia.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\net\KademliaUDPListener.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\LittleEndian.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\MiscUtils.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\net\PacketTracking.cpp" />
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Prefs.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\routing\RoutingBin.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\routing\RoutingZone.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Search.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\SearchManager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\ThreadName.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\UDPFirewallTester.cpp" />
+    <ClCompile Include="WorkLayer\kademlia\utils\UInt128.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\AbstractFile.cpp" />
+    <ClCompile Include="WorkLayer\AICHSyncThread.cpp" />
+    <ClCompile Include="WorkLayer\ArchiveRecovery.cpp" />
+    <ClCompile Include="WorkLayer\AsyncProxySocketLayer.cpp" />
+    <ClCompile Include="WorkLayer\AsyncSocketEx.cpp" />
+    <ClCompile Include="WorkLayer\AsyncSocketExLayer.cpp" />
+    <ClCompile Include="WorkLayer\BaseClient.cpp" />
+    <ClCompile Include="WorkLayer\BetterSP2.cpp" />
+    <ClCompile Include="WorkLayer\CBase64Coding.cpp" />
+    <ClCompile Include="WorkLayer\ClientCredits.cpp" />
+    <ClCompile Include="WorkLayer\ClientList.cpp" />
+    <ClCompile Include="WorkLayer\ClientReqSocket.cpp" />
+    <ClCompile Include="WorkLayer\ClientUDPSocket.cpp" />
+    <ClCompile Include="WorkLayer\Collection.cpp" />
+    <ClCompile Include="WorkLayer\CollectionFile.cpp" />
+    <ClCompile Include="WorkLayer\CorruptionBlackBox.cpp" />
+    <ClCompile Include="WorkLayer\Database.cpp" />
+    <ClCompile Include="WorkLayer\DeadSourceList.cpp" />
+    <ClCompile Include="WorkLayer\DLP.cpp" />
+    <ClCompile Include="WorkLayer\DownloadClient.cpp" />
+    <ClCompile Include="WorkLayer\DownloadQueue.cpp" />
+    <ClCompile Include="WorkLayer\ED2KLink.cpp" />
+    <ClCompile Include="WorkLayer\Ed2kUpDownClient.cpp" />
+    <ClCompile Include="WorkLayer\EMClientReqSocket.cpp" />
+    <ClCompile Include="WorkLayer\EMSocket.cpp" />
+    <ClCompile Include="WorkLayer\emule.cpp" />
+    <ClCompile Include="WorkLayer\EmuleUpdater.cpp" />
+    <ClCompile Include="WorkLayer\EncryptedDatagramSocket.cpp" />
+    <ClCompile Include="WorkLayer\EncryptedStreamSocket.cpp" />
+    <ClCompile Include="WorkLayer\FileMgr.cpp" />
+    <ClCompile Include="WorkLayer\FileMgrDB.cpp" />
+    <ClCompile Include="WorkLayer\FirewallOpener.cpp" />
+    <ClCompile Include="WorkLayer\FrameGrabThread.cpp" />
+    <ClCompile Include="WorkLayer\Friend.cpp" />
+    <ClCompile Include="WorkLayer\FriendList.cpp" />
+    <ClCompile Include="WorkLayer\GlobalVariable.cpp" />
+    <ClCompile Include="WorkLayer\GZipFile.cpp" />
+    <ClCompile Include="WorkLayer\http_chunk.cpp" />
+    <ClCompile Include="WorkLayer\I18n.cpp" />
+    <ClCompile Include="WorkLayer\IEMonitor.cpp" />
+    <ClCompile Include="WorkLayer\INetClient.cpp" />
+    <ClCompile Include="WorkLayer\ini2.cpp" />
+    <ClCompile Include="WorkLayer\IP2Country.cpp" />
+    <ClCompile Include="WorkLayer\IPFilter.cpp" />
+    <ClCompile Include="WorkLayer\IrcMain.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IrcSocket.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\JavaScriptEscape.cpp" />
+    <ClCompile Include="WorkLayer\KnownFile.cpp" />
+    <ClCompile Include="WorkLayer\KnownFileList.cpp" />
+    <ClCompile Include="WorkLayer\LastCommonRouteFinder.cpp" />
+    <ClCompile Include="WorkLayer\ListenSocket.cpp" />
+    <ClCompile Include="WorkLayer\Log.cpp" />
+    <ClCompile Include="WorkLayer\MD4.cpp" />
+    <ClCompile Include="WorkLayer\MD5Sum.cpp" />
+    <ClCompile Include="WorkLayer\MediaInfo.cpp" />
+    <ClCompile Include="WorkLayer\MessageLog.cpp" />
+    <ClCompile Include="WorkLayer\MMServer.cpp" />
+    <ClCompile Include="WorkLayer\MMSocket.cpp" />
+    <ClCompile Include="WorkLayer\otherfunctions.cpp" />
+    <ClCompile Include="WorkLayer\packets.cpp" />
+    <ClCompile Include="WorkLayer\parser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PartFile.cpp" />
+    <ClCompile Include="WorkLayer\PartFileConvert.cpp" />
+    <ClCompile Include="WorkLayer\PeerCacheClient.cpp" />
+    <ClCompile Include="WorkLayer\PeerCacheFinder.cpp" />
+    <ClCompile Include="WorkLayer\PeerLog.cpp" />
+    <ClCompile Include="WorkLayer\Pinger.cpp" />
+    <ClCompile Include="WorkLayer\PlayerMgr.cpp" />
+    <ClCompile Include="WorkLayer\Preferences.cpp" />
+    <ClCompile Include="WorkLayer\Preview.cpp" />
+    <ClCompile Include="WorkLayer\Quantize.cpp" />
+    <ClCompile Include="WorkLayer\RARFile.cpp" />
+    <ClCompile Include="WorkLayer\SafeFile.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Scanner.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Scheduler.cpp" />
+    <ClCompile Include="WorkLayer\SearchFile.cpp" />
+    <ClCompile Include="WorkLayer\SearchList.cpp" />
+    <ClCompile Include="WorkLayer\SecRunAsUser.cpp" />
+    <ClCompile Include="WorkLayer\Security.cpp" />
+    <ClCompile Include="WorkLayer\SeeFileManager.cpp" />
+    <ClCompile Include="WorkLayer\SelfTest.cpp" />
+    <ClCompile Include="WorkLayer\server.cpp" />
+    <ClCompile Include="WorkLayer\ServerList.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ServerSocket.cpp" />
+    <ClCompile Include="WorkLayer\SHA.cpp" />
+    <ClCompile Include="WorkLayer\SHAHashSet.cpp" />
+    <ClCompile Include="WorkLayer\SharedFileList.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ShortcutManager.cpp" />
+    <ClCompile Include="WorkLayer\sockets.cpp" />
+    <ClCompile Include="WorkLayer\StatForServer.cpp" />
+    <ClCompile Include="WorkLayer\StatisticFile.cpp" />
+    <ClCompile Include="WorkLayer\Statistics.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\StringConversion.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ThreadsMgr.cpp" />
+    <ClCompile Include="WorkLayer\TimeTick.cpp" />
+    <ClCompile Include="WorkLayer\TraceEvent.cpp" />
+    <ClCompile Include="WorkLayer\TransferCompletedProcessor.cpp" />
+    <ClCompile Include="WorkLayer\UDPSocket.cpp" />
+    <ClCompile Include="WorkLayer\UpdateInfo.cpp" />
+    <ClCompile Include="WorkLayer\UpdaterThread.cpp" />
+    <ClCompile Include="WorkLayer\UploadBandwidthThrottler.cpp" />
+    <ClCompile Include="WorkLayer\UploadClient.cpp" />
+    <ClCompile Include="WorkLayer\UploadQueue.cpp" />
+    <ClCompile Include="WorkLayer\UrlSite.cpp" />
+    <ClCompile Include="WorkLayer\Version.cpp" />
+    <ClCompile Include="WorkLayer\WebServer.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\WebSocket.cpp" />
+    <ClCompile Include="WorkLayer\ZIPFile.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\NatSocket.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\NatThread.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\SourceExchangeNAT.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseByBuddy.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseBySourceExchange.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseBySvr.cpp" />
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseStrategy.cpp" />
+    <ClCompile Include="WorkLayer\WordFilter\WordFilter.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\DNSManager.cpp" />
+    <ClCompile Include="WorkLayer\FtpClient.cpp" />
+    <ClCompile Include="WorkLayer\FtpClientReqSocket.cpp" />
+    <ClCompile Include="WorkLayer\HttpClient.cpp" />
+    <ClCompile Include="WorkLayer\HttpClientReqSocket.cpp" />
+    <ClCompile Include="WorkLayer\SendGetUrlReqSocket.cpp" />
+    <ClCompile Include="WorkLayer\SourceURL.cpp" />
+    <ClCompile Include="WorkLayer\TimerOp_UrlClientRetry.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\TimerOpBase.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UrlSrcFromSvrMgr.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UrlSrcGetFromSvrSocket.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Irc\IrcMain.cpp" />
+    <ClCompile Include="WorkLayer\Irc\IrcSocket.cpp" />
+    <ClCompile Include="WorkLayer\IEFilter.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IEFilterMgr.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UPnP\UPnpAsynThreads.cpp" />
+    <ClCompile Include="WorkLayer\UPnP\UPnpMgr.cpp" />
+    <ClCompile Include="WorkLayer\UPnP\UPnpNat.cpp" />
+    <ClCompile Include="WorkLayer\UPnP\UPnpNatMapping.cpp" />
+    <ClCompile Include="WorkLayer\UPnP\UPnpNatMappingKey.cpp" />
+    <ClCompile Include="WorkLayer\Internal\InternalSocket.cpp" />
+    <ClCompile Include="WorkLayer\CheckConflict.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Alpha|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\mdump.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MemPool\MemPool.cpp" />
+    <ClCompile Include="WorkLayer\MemPool\MemPoolMgr.cpp" />
+    <ClCompile Include="WorkLayer\MetaLink\MetalinkExecutor.cpp" />
+    <ClCompile Include="WorkLayer\MetaLink\MetaLinkPacker.cpp" />
+    <ClCompile Include="WorkLayer\MetaLink\MetaLinkParser.cpp" />
+    <ClCompile Include="WorkLayer\MetaLink\MetaLinkQuerySocket.cpp" />
+    <ClCompile Include="UILayer\3DPreviewControl.cpp" />
+    <ClCompile Include="UILayer\AddFriend.cpp" />
+    <ClCompile Include="UILayer\AddSourceDlg.cpp" />
+    <ClCompile Include="UILayer\AdvanceTabWnd.cpp" />
+    <ClCompile Include="UILayer\AffirmDeleteDlg.cpp" />
+    <ClCompile Include="UILayer\ArchivePreviewDlg.cpp" />
+    <ClCompile Include="UILayer\BarShader.cpp" />
+    <ClCompile Include="UILayer\BrowserToolbarInfo.cpp" />
+    <ClCompile Include="UILayer\BufferMovieDlg.cpp" />
+    <ClCompile Include="UILayer\CatDialog.cpp" />
+    <ClCompile Include="UILayer\ChatSelector.cpp" />
+    <ClCompile Include="UILayer\ChatWnd.cpp" />
+    <ClCompile Include="UILayer\CIF.cpp" />
+    <ClCompile Include="UILayer\ClientDetailDialog.cpp" />
+    <ClCompile Include="UILayer\ClosableTabCtrl.cpp" />
+    <ClCompile Include="UILayer\CloseModeDlg.cpp" />
+    <ClCompile Include="UILayer\CollectionCreateDialog.cpp" />
+    <ClCompile Include="UILayer\CollectionViewDialog.cpp" />
+    <ClCompile Include="UILayer\ColorButton.cpp" />
+    <ClCompile Include="UILayer\ColorFrameCtrl.cpp" />
+    <ClCompile Include="UILayer\ColourPopup.cpp" />
+    <ClCompile Include="UILayer\ComboBoxEx2.cpp" />
+    <ClCompile Include="UILayer\CommentDialog.cpp" />
+    <ClCompile Include="UILayer\CommentDialogLst.cpp" />
+    <ClCompile Include="UILayer\CoolBarCtrl.cpp" />
+    <ClCompile Include="UILayer\CreateCheckboxImageList.cpp" />
+    <ClCompile Include="UILayer\CreditsDlg.cpp" />
+    <ClCompile Include="UILayer\CreditsThread.cpp" />
+    <ClCompile Include="UILayer\CustomAutoComplete.cpp" />
+    <ClCompile Include="UILayer\DetailInfo.cpp" />
+    <ClCompile Include="UILayer\DialogMinTrayBtn.cpp" />
+    <ClCompile Include="UILayer\DirectDownloadDlg.cpp" />
+    <ClCompile Include="UILayer\DirectoryTreeCtrl.cpp" />
+    <ClCompile Include="UILayer\DlgMainTabAdvance.cpp" />
+    <ClCompile Include="UILayer\DlgMaintabDownload.cpp" />
+    <ClCompile Include="UILayer\DlgMainTabResource.cpp" />
+    <ClCompile Include="UILayer\DlgMainTabShare.cpp" />
+    <ClCompile Include="UILayer\DlgMainTabSidePanel.cpp" />
+    <ClCompile Include="UILayer\DownloadDetailDlg.cpp" />
+    <ClCompile Include="UILayer\DownloadTabCtrl.cpp" />
+    <ClCompile Include="UILayer\DropDownButton.cpp" />
+    <ClCompile Include="UILayer\DropTarget.cpp" />
+    <ClCompile Include="UILayer\ED2kLinkDlg.cpp" />
+    <ClCompile Include="UILayer\EditDelayed.cpp" />
+    <ClCompile Include="UILayer\EditX.cpp" />
+    <ClCompile Include="UILayer\emuleDlg.cpp" />
+    <ClCompile Include="UILayer\EnBitmap.cpp" />
+    <ClCompile Include="UILayer\FaceManager.cpp" />
+    <ClCompile Include="UILayer\FileDetailDialog.cpp" />
+    <ClCompile Include="UILayer\FileDetailDialogInfo.cpp" />
+    <ClCompile Include="UILayer\FileDetailDialogName.cpp" />
+    <ClCompile Include="UILayer\FileHashKey.cpp" />
+    <ClCompile Include="UILayer\FileInfoDialog.cpp" />
+    <ClCompile Include="UILayer\GDIThread.cpp" />
+    <ClCompile Include="UILayer\HtmlCtrl.cpp" />
+    <ClCompile Include="UILayer\HTRichEditCtrl.cpp" />
+    <ClCompile Include="UILayer\HttpDownloadDlg.cpp" />
+    <ClCompile Include="UILayer\HyperTextCtrl.cpp" />
+    <ClCompile Include="UILayer\IconStatic.cpp" />
+    <ClCompile Include="UILayer\IEManagerWnd.cpp" />
+    <ClCompile Include="UILayer\IESecurity.cpp" />
+    <ClCompile Include="UILayer\InputBox.cpp" />
+    <ClCompile Include="UILayer\IPFilterDlg.cpp" />
+    <ClCompile Include="UILayer\KadContactHistogramCtrl.cpp" />
+    <ClCompile Include="UILayer\KademliaWnd.cpp" />
+    <ClCompile Include="UILayer\LayeredWindowHelperST.cpp" />
+    <ClCompile Include="UILayer\ListBoxST.cpp" />
+    <ClCompile Include="UILayer\ListCtrlEditable.cpp" />
+    <ClCompile Include="UILayer\ListCtrlX.cpp" />
+    <ClCompile Include="UILayer\ListViewSearchDlg.cpp" />
+    <ClCompile Include="UILayer\ListViewWalkerPropertySheet.cpp" />
+    <ClCompile Include="UILayer\Localizee.cpp" />
+    <ClCompile Include="UILayer\LocalizeMgr.cpp" />
+    <ClCompile Include="UILayer\MainTabBkDraw.cpp" />
+    <ClCompile Include="UILayer\MainTabWnd.cpp" />
+    <ClCompile Include="UILayer\MenuXP.cpp" />
+    <ClCompile Include="UILayer\MetaDataDlg.cpp" />
+    <ClCompile Include="UILayer\MeterIcon.cpp" />
+    <ClCompile Include="UILayer\MiniMule.cpp" />
+    <ClCompile Include="UILayer\MuleStatusBarCtrl.cpp" />
+    <ClCompile Include="UILayer\NetworkInfoDlg.cpp" />
+    <ClCompile Include="UILayer\NumericEdit.cpp" />
+    <ClCompile Include="UILayer\OScopeCtrl.cpp" />
+    <ClCompile Include="UILayer\PageTabBkDraw.cpp" />
+    <ClCompile Include="UILayer\PerfLog.cpp" />
+    <ClCompile Include="UILayer\PopMule.cpp" />
+    <ClCompile Include="UILayer\PPgAntiLeech.cpp" />
+    <ClCompile Include="UILayer\PPgConnection.cpp" />
+    <ClCompile Include="UILayer\PPgDebug.cpp" />
+    <ClCompile Include="UILayer\PPgDirectories.cpp" />
+    <ClCompile Include="UILayer\PPgDisplay.cpp" />
+    <ClCompile Include="UILayer\PPgDownloadSecurity.cpp" />
+    <ClCompile Include="UILayer\PPgFiles.cpp" />
+    <ClCompile Include="UILayer\PPgGeneral.cpp" />
+    <ClCompile Include="UILayer\PPGProxy.cpp" />
+    <ClCompile Include="UILayer\PPgScheduler.cpp" />
+    <ClCompile Include="UILayer\PPgServer.cpp" />
+    <ClCompile Include="UILayer\PPgTweaks.cpp" />
+    <ClCompile Include="UILayer\PPgWebServer.cpp" />
+    <ClCompile Include="UILayer\PreferencesDlg.cpp" />
+    <ClCompile Include="UILayer\PreviewDlg.cpp" />
+    <ClCompile Include="UILayer\ProgressCtrlX.cpp" />
+    <ClCompile Include="UILayer\ProgressStatic.cpp" />
+    <ClCompile Include="UILayer\PShtWiz1.cpp" />
+    <ClCompile Include="UILayer\ResetButton.cpp" />
+    <ClCompile Include="UILayer\RichEditCtrlX.cpp" />
+    <ClCompile Include="UILayer\RichEditStream.cpp" />
+    <ClCompile Include="UILayer\ScanDlg.cpp" />
+    <ClCompile Include="UILayer\SearchBarCtrl.cpp" />
+    <ClCompile Include="UILayer\SearchButton.cpp" />
+    <ClCompile Include="UILayer\SearchDlg.cpp" />
+    <ClCompile Include="UILayer\SearchEdit.cpp" />
+    <ClCompile Include="UILayer\SearchParamsWnd.cpp" />
+    <ClCompile Include="UILayer\SearchResultsWnd.cpp" />
+    <ClCompile Include="UILayer\ServerWnd.cpp" />
+    <ClCompile Include="UILayer\SharedDirsTreeCtrl.cpp" />
+    <ClCompile Include="UILayer\SharedFilesWnd.cpp" />
+    <ClCompile Include="UILayer\ShareFilesCountStatic.cpp" />
+    <ClCompile Include="UILayer\ShareFileSelect.cpp" />
+    <ClCompile Include="UILayer\SpeedMeter.cpp" />
+    <ClCompile Include="UILayer\SpeedMeterDlg.cpp" />
+    <ClCompile Include="UILayer\SplashScreen.cpp" />
+    <ClCompile Include="UILayer\SplashWndThread.cpp" />
+    <ClCompile Include="UILayer\SplitterControl.cpp" />
+    <ClCompile Include="UILayer\SplitterControlEx.cpp" />
+    <ClCompile Include="UILayer\StatisticsDlg.cpp" />
+    <ClCompile Include="UILayer\StatisticsInfo.cpp" />
+    <ClCompile Include="UILayer\StatisticsTree.cpp" />
+    <ClCompile Include="UILayer\tabctrl.cpp" />
+    <ClCompile Include="UILayer\TaskbarNotifier.cpp" />
+    <ClCompile Include="UILayer\TextToSpeech.cpp" />
+    <ClCompile Include="UILayer\TitleMenu.cpp" />
+    <ClCompile Include="UILayer\ToolTipCtrlX.cpp" />
+    <ClCompile Include="UILayer\TransferWnd.cpp" />
+    <ClCompile Include="UILayer\TreeOptionsCtrl.cpp" />
+    <ClCompile Include="UILayer\TreeOptionsCtrlEx.cpp" />
+    <ClCompile Include="UILayer\TreePropSheet.cpp" />
+    <ClCompile Include="UILayer\TreePropSheetPgFrame.cpp" />
+    <ClCompile Include="UILayer\TreePropSheetPgFrameDef.cpp" />
+    <ClCompile Include="UILayer\UpLoading.cpp" />
+    <ClCompile Include="UILayer\UserComment.cpp" />
+    <ClCompile Include="UILayer\VisualStylesXP.cpp" />
+    <ClCompile Include="UILayer\WBNotifyReceiver.cpp" />
+    <ClCompile Include="UILayer\WebBrowserWnd.cpp" />
+    <ClCompile Include="UILayer\Wizard.cpp" />
+    <ClCompile Include="UILayer\WndMgr.cpp" />
+    <ClCompile Include="UILayer\Common\Draw.cpp" />
+    <ClCompile Include="UILayer\Common\Publisher.cpp" />
+    <ClCompile Include="UILayer\Common\RectDraw.cpp" />
+    <ClCompile Include="UILayer\Common\SingleInst.cpp" />
+    <ClCompile Include="UILayer\Common\Tools.cpp" />
+    <ClCompile Include="UILayer\Common\Util.cpp" />
+    <ClCompile Include="UILayer\Common\UtilMisc.cpp" />
+    <ClCompile Include="UILayer\Common\UtilUI.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\Joint.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\Resizee.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\Resizer.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabBar.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_Cake.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_MainButton.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_MainTabBn.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_Normal.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_NormalCloseable.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_WebBrowser.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItem_Wnd.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabItemAffector.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabWnd.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabWnd_Cake.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\TabWndDef.cpp" />
+    <ClCompile Include="UILayer\CtrlEx\ToolTipCtrlZ.cpp" />
+    <ClCompile Include="UILayer\Commands\CmdFuncs.cpp" />
+    <ClCompile Include="UILayer\Commands\CmdGotoPage.cpp" />
+    <ClCompile Include="UILayer\Commands\CmdMainTabOp.cpp" />
+    <ClCompile Include="UILayer\Functions\AddTask\AddTaskDoc.cpp" />
+    <ClCompile Include="UILayer\Functions\AddTask\AddTaskLinksEdit.cpp" />
+    <ClCompile Include="UILayer\Functions\AddTask\AddTaskListCtrl.cpp" />
+    <ClCompile Include="UILayer\Functions\AddTask\DlgAddTask.cpp" />
+    <ClCompile Include="UILayer\ToolbarCtrls\BrowserToolbarCtrl.cpp" />
+    <ClCompile Include="UILayer\ToolbarCtrls\TbcAdvance.cpp" />
+    <ClCompile Include="UILayer\ToolbarCtrls\TbcDownload.cpp" />
+    <ClCompile Include="UILayer\ToolbarCtrls\TbcShare.cpp" />
+    <ClCompile Include="UILayer\ToolbarCtrls\ToolBarCtrlX.cpp" />
+    <ClCompile Include="UILayer\ToolbarCtrls\ToolBarCtrlZ.cpp" />
+    <ClCompile Include="UILayer\Lists\ClientListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\CollectionListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\CommentListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\DownloadClientsCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\DownloadedListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\DownloadListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\FriendListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\KadContactListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\KadSearchListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\LogListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\MuleListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\QueueListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\SearchListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\ServerListCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\SharedFilesCtrl.cpp" />
+    <ClCompile Include="UILayer\Lists\UploadListCtrl.cpp" />
+    <ClCompile Include="UILayer\SMIRC\IrcChannelListCtrl.cpp" />
+    <ClCompile Include="UILayer\SMIRC\IrcChannelTabCtrl.cpp" />
+    <ClCompile Include="UILayer\SMIRC\IrcNickListCtrl.cpp" />
+    <ClCompile Include="UILayer\SMIRC\IrcWnd.cpp" />
+    <ClCompile Include="UILayer\TrayMenu\GradientStatic.cpp" />
+    <ClCompile Include="UILayer\TrayMenu\MuleSystrayDlg.cpp" />
+    <ClCompile Include="UILayer\TrayMenu\TrayDialog.cpp" />
+    <ClCompile Include="UILayer\TrayMenu\TrayMenuBtn.cpp" />
+    <ClCompile Include="HotKey\HotKeyEdit.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="emule.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

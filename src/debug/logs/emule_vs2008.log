@@ -1,0 +1,9 @@
+﻿  otherfunctions.cpp
+WorkLayer\otherfunctions.cpp(4254): warning C4244: '=' : conversion from 'unsigned int' to 'unsigned char', possible loss of data
+WorkLayer\otherfunctions.cpp(4271): warning C4244: '=' : conversion from 'unsigned int' to 'unsigned char', possible loss of data
+WorkLayer\otherfunctions.cpp(4308): warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+  emule.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1185,5): warning MSB8012: TargetPath(F:\mycode\easyMule\src\.\debug\emule_vs2008.exe) does not match the Linker's OutputFile property value (F:\mycode\easyMule\src\debug\emule.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetName(emule_vs2008) does not match the Linker's OutputFile property value (emule). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  emule_vs2008.vcxproj -> F:\mycode\easyMule\src\.\debug\emule_vs2008.exe

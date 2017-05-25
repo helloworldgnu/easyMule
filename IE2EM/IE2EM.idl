@@ -1,0 +1,81 @@
+// IE2EM.idl : IE2EM 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(IE2EM.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "downloadmgr.idl";
+#include "exdispid.h"
+
+[
+	object,
+	uuid(DE1A243C-C7CB-4543-AC32-A2D2CA879663),
+	dual,
+	nonextensible,
+	helpstring("IIE2EMUrlTaker Interface"),
+	pointer_default(unique)
+]
+interface IIE2EMUrlTaker : IDispatch{
+	[id(1), helpstring("SendUrl Method")] HRESULT SendUrl([in] BSTR strUrl, [in] BSTR strInfo, [in] BSTR strRef, [out][retval] BOOL * result);
+	[id(7), helpstring("GetEmuleVersion Method")] HRESULT GetEmuleVersion([out,retval] BSTR* pstrVer);
+	[propget, id(8), helpstring("Version Property")] HRESULT Version([out, retval] BSTR* pVal);
+};
+
+[
+	object,
+	uuid(F59B9BF7-9A25-4610-B059-4431AB20C3FF),
+	dual,
+	nonextensible,
+	helpstring("IIE2EMBHO Interface"),
+	pointer_default(unique)
+]
+interface IIE2EMBHO : IDispatch
+{
+	[id(DISPID_BEFORENAVIGATE2), helpstring("BeforeNavigate2 method")] HRESULT BeforeNavigate2(IDispatch*, VARIANT*, VARIANT*, VARIANT*, VARIANT*, VARIANT*, VARIANT_BOOL*);
+};
+
+[
+	uuid(8F5497A2-6C8C-45EA-87BC-5A76F2F5E28B),
+	version(1.0),
+	helpstring("IE2EM 1.0 TypeLib")
+]
+library IE2EMLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(48618374-565F-4CA0-B8CD-6F496C997FAF),
+		helpstring("IE2EMUrlTaker Class")
+	]
+	coclass IE2EMUrlTaker
+	{
+		[default] interface IIE2EMUrlTaker;
+	};
+	[
+		uuid(A0867FD1-79E7-456C-8B41-165A2504FD86),
+		helpstring("EMDM Class")
+	]
+	coclass EMDM
+	{
+		[default] interface IDownloadManager;
+	};
+	[
+		uuid(0A0DDBD3-6641-40B9-873F-BBDD26D6C14E),
+		helpstring("IE2EMBHO Class")
+	]
+	coclass IE2EMBHO
+	{
+		[default] interface IIE2EMBHO;
+	};
+	[
+		uuid(D15FB88E-B87E-43D1-87C2-D5FF5FA33002),
+		helpstring("ProtMon Class")
+	]
+	coclass ProtMon
+	{
+		[default] interface IUnknown;
+		interface IInternetProtocolRoot;
+		interface IInternetProtocol;
+	};
+};

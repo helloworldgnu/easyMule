@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IE2EM", "IE2EM.vcproj", "{C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IE2EMPS", "IE2EMPS.vcproj", "{FCF2773E-332B-4D6F-AEDC-03570DAB9864}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB} = {C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB}.Debug.ActiveCfg = Debug|Win32
+		{C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB}.Debug.Build.0 = Debug|Win32
+		{C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB}.Release.ActiveCfg = Release|Win32
+		{C82DA9B3-E8CA-4FF9-803B-A9B613B5AFFB}.Release.Build.0 = Release|Win32
+		{FCF2773E-332B-4D6F-AEDC-03570DAB9864}.Debug.ActiveCfg = Debug|Win32
+		{FCF2773E-332B-4D6F-AEDC-03570DAB9864}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

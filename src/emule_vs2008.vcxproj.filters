@@ -1,0 +1,3504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e55c2db6-c34a-4028-8ef0-0eb3e5cc6a04}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5be286ea-179d-445f-8431-6abc6c54fe50}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest;gif;png</Extensions>
+    </Filter>
+    <Filter Include="Kademlia">
+      <UniqueIdentifier>{b6c1dc47-cace-4a08-aba3-7f65b54d25f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer">
+      <UniqueIdentifier>{283f3bf9-603d-44d3-befd-09c455f8e202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\Nat Traversal">
+      <UniqueIdentifier>{1868608d-9e68-4e42-a3cc-3694c3dcdbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\WordFilter">
+      <UniqueIdentifier>{53f84f62-6b74-4bcd-a117-2a99e74366be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\HTTP FTP">
+      <UniqueIdentifier>{d5dc5aa3-d4f0-4758-8bf5-2f4f154e1981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\Irc">
+      <UniqueIdentifier>{daf83dbc-706b-4c2c-b643-dc66669638fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\IEFilter">
+      <UniqueIdentifier>{fb37e17b-8bac-449e-95ae-acaec2bef1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\UPnP">
+      <UniqueIdentifier>{efdc12bb-748f-4818-9c2b-0a75aeac6bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\Internal">
+      <UniqueIdentifier>{34db4353-319b-444d-a82d-4c329a9aad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\CrashReport">
+      <UniqueIdentifier>{b96958f6-0c6c-4944-840f-24e42ab8214d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\MemPool">
+      <UniqueIdentifier>{c0df2599-80ff-43b3-bcaa-ea3bd904e276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work Layer\MetaLink">
+      <UniqueIdentifier>{0d8bccbe-577a-484b-9f20-61dddf06ac41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer">
+      <UniqueIdentifier>{945edbb2-da44-45c6-8863-3497846328dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\Common">
+      <UniqueIdentifier>{b4d2e4ed-d76f-4bf7-b552-9195d3a8a3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\CtrlEx">
+      <UniqueIdentifier>{48772c47-b4e1-4bd9-af65-b48ef55eed0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\Commands">
+      <UniqueIdentifier>{3c02c37e-f970-42fb-b9ee-1d688fad0875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\Functions">
+      <UniqueIdentifier>{8bab63b4-7670-4126-ac25-a2967ad344bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\Functions\AddTask">
+      <UniqueIdentifier>{7e8432e4-a896-4efd-81f7-a47b6678a53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\ToolBarCtrls">
+      <UniqueIdentifier>{636745b2-4a42-45eb-be94-532e9e696f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\Lists">
+      <UniqueIdentifier>{c99e7f75-27a4-4316-9111-767a2be6eeda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\SMIRC">
+      <UniqueIdentifier>{60ba4f34-f4c2-4c93-87d5-86cc773f4273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Layer\TrayMenu">
+      <UniqueIdentifier>{2d5bf82e-08d2-452b-8b24-bc8372727aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HotKey">
+      <UniqueIdentifier>{dea5c205-0633-4eca-89f2-92f7cf19bc61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\io\BufferedFileIO.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\io\ByteIO.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\routing\Contact.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\io\DataIO.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Defines.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Entry.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Error.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\io\FileIO.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Indexed.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\io\IOException.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Kademlia.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\net\KademliaUDPListener.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\utils\KadUDPKey.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\utils\LittleEndian.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\routing\Maps.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\utils\MiscUtils.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\net\PacketTracking.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Prefs.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\routing\RoutingBin.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\routing\RoutingZone.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Search.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\SearchManager.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\Tag.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\utils\ThreadName.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\kademlia\UDPFirewallTester.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\kademlia\utils\UInt128.h">
+      <Filter>Kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\AbstractFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\AICHSyncThread.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\AntiVirusIDs.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ArchiveRecovery.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\AsyncProxySocketLayer.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\AsyncSocketEx.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\AsyncSocketExLayer.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\BetterSP2.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\CBase64Coding.hpp">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ClientCredits.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ClientList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ClientReqSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ClientUDPSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ClientVersionInfo.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Collection.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\CollectionFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\CorruptionBlackBox.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Database.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\DeadSourceList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Debug_FileSize.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\DebugHelpers.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\DLP.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\DownloadQueue.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ED2KLink.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Ed2kUpDownClient.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\EMClientReqSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\EMSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\emule.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\EmuleUpdater.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\EncryptedDatagramSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\EncryptedStreamSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Exceptions.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\fileformat.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FileMgr.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FileMgrDB.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FirewallOpener.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FrameGrabThread.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Friend.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FriendList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\GapSpace.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\GlobalVariable.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\GZipFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\http_chunk.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IEMonitor.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\INetClient.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ini2.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IP2Country.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IPFilter.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IrcMain.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IrcSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\JavaScriptEscape.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\KnownFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\KnownFileList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\langids.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\LastCommonRouteFinder.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ListenSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Log.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MapKey.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MD4.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MD5Sum.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MediaInfo.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MessageLog.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MMServer.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MMSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NextVersion.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\opcodes.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\otherfunctions.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\packets.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\parser.hpp">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PartFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PartFileConvert.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PeerCacheClient.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PeerCacheFinder.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PeerCacheSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PeerLog.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Pinger.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\PlayerMgr.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Preferences.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Preview.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\QArray.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Quantize.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\RARFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ResetButton.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SafeFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Scanner.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Scheduler.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SearchFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SearchList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SecRunAsUser.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SeeFileManager.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\server.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ServerList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ServerSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SHA.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SHAHashSet.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SharedFileList.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ShortcutManager.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\sockets.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\StatForServer.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\StatisticFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Statistics.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\stdafx.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\StringConversion.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SyncHelper.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ThreadsMgr.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ThrottledSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\TimeTick.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\TraceEvent.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\TransferCompletedProcessor.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\types.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UDPSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UIMessage.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UpdateInfo.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UpdaterThread.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\updownclient.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UploadBandwidthThrottler.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UploadQueue.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UrlSite.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Version.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\VistaDefines.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\WebServer.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\WebServices.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\WebSocket.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\ZIPFile.h">
+      <Filter>Work Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\NatSocket.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\NatThread.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\SourceExchangeNAT.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseByBuddy.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseBySourceExchange.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseBySvr.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\NatTraversal\TraverseStrategy.h">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\WordFilter\WordFilter.h">
+      <Filter>Work Layer\WordFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\DNSManager.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FtpClient.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\FtpClientReqSocket.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\HttpClient.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\HttpClientReqSocket.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SendGetUrlReqSocket.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\SourceURL.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\TimerOp_UrlClientRetry.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\TimerOpBase.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UrlSrcFromSvrMgr.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UrlSrcGetFromSvrSocket.h">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Irc\IrcMain.h">
+      <Filter>Work Layer\Irc</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Irc\IrcSocket.h">
+      <Filter>Work Layer\Irc</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IEFilter.h">
+      <Filter>Work Layer\IEFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\IEFilterMgr.h">
+      <Filter>Work Layer\IEFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UPnP\UPnpAsynThreads.h">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UPnP\UPnpError.h">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UPnP\UPnpMgr.h">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UPnP\UPnpNat.h">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UPnP\UPnpNatMapping.h">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\UPnP\UPnpNatMappingKey.h">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\Internal\InternalSocket.h">
+      <Filter>Work Layer\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\CheckConflict.h">
+      <Filter>Work Layer\CrashReport</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\mdump.h">
+      <Filter>Work Layer\CrashReport</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MemPool\MemPool.h">
+      <Filter>Work Layer\MemPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MemPool\MemPoolMgr.h">
+      <Filter>Work Layer\MemPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MetaLink\MetalinkExecutor.h">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MetaLink\MetaLinkPacker.h">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MetaLink\MetaLinkParser.h">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkLayer\MetaLink\MetaLinkQuerySocket.h">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\3DPreviewControl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\AddFriend.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\AddSourceDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\AdvanceTabWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\AffirmDeleteDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\AfxBeginMsgMapTemplate.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ArchivePreviewDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\BarShader.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\BrowserToolbarInfo.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\BufferMovieDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CatDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ChatSelector.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ChatWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CIF.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ClientDetailDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ClosableTabCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CloseModeDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CollectionCreateDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CollectionViewDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ColorButton.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ColorFrameCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ColourPopup.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ComboBoxEx2.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CommentDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CommentDialogLst.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CoolBarCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CreateCheckboxImageList.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CreditsDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CreditsThread.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CustomAutoComplete.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DetailInfo.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DialogMinTrayBtn.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DirectDownloadDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DirectoryTreeCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DlgMainTabAdvance.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DlgMaintabDownload.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DlgMainTabResource.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DlgMainTabShare.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DlgMainTabSidePanel.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DownloadDetailDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DownloadTabCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Drawgdix.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DropDownButton.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\DropTarget.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ED2kLinkDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\EditDelayed.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\EditX.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\emuleDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\EnBitmap.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FaceManager.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FileDetailDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FileDetailDialogInfo.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FileDetailDialogName.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FileHashKey.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FileInfoDialog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\FindWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\GDIThread.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\HelpIDs.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\HighColorTab.hpp">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\HtmlCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\HTRichEditCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\HttpDownloadDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\HyperTextCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\IconStatic.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\IEManagerWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\IESecurity.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\InputBox.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\IPFilterDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\KadContactHistogramCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\KademliaWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\LayeredWindowHelperST.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ListBoxST.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ListCtrlEditable.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ListCtrlItemWalk.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ListCtrlX.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ListViewSearchDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ListViewWalkerPropertySheet.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Localizee.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\LocalizeMgr.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MainTabBkDraw.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MainTabWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MemDC.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MenuCmds.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MenuXP.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MetaDataDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MeterIcon.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MiniMule.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\MuleStatusBarCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\NetworkInfoDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\NumericEdit.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\OScopeCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PageTabBkDraw.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PerfLog.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PopMule.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgAntiLeech.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgConnection.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgDebug.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgDirectories.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgDisplay.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgDownloadSecurity.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgFiles.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgGeneral.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPGProxy.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgScheduler.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgServer.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgTweaks.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PPgWebServer.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PreferencesDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PreviewDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ProgressCtrlX.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ProgressStatic.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\PShtWiz1.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ResetButton.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\RichEditCtrlX.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\RichEditStream.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ScanDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchBarCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchButton.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchEdit.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchExpr.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchParams.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchParamsWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SearchResultsWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ServerWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SharedDirsTreeCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SharedFilesWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ShareFilesCountStatic.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ShareFileSelect.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SpeedMeter.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SpeedMeterDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SplashScreen.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SplashWndThread.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SplitterControl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SplitterControlEx.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\StatisticsDlg.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\StatisticsInfo.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\StatisticsTree.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\tabctrl.hpp">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TaskbarNotifier.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TextToSpeech.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TitleMenu.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolTipCtrlX.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TransferWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TreeOptionsCtrl.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TreeOptionsCtrlEx.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TreePropSheet.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TreePropSheetPgFrame.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TreePropSheetPgFrameDef.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\UpLoading.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\UserComment.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\UserMsgs.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\vcconfig.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\VisualStylesXP.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\WBNotifyReceiver.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\WebBrowserWnd.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Wizard.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\WndMgr.h">
+      <Filter>UI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\BkDraw.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\Draw.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\Publisher.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\RectDraw.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\ScopeTimeCost.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\SingleInst.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\Tools.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\Util.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\UtilMisc.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Common\UtilUI.h">
+      <Filter>UI Layer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\Joint.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\Resizee.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\Resizer.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabBar.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_Cake.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_MainButton.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_MainTabBn.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_Normal.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_NormalCloseable.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_WebBrowser.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItem_Wnd.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabItemAffector.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabWnd.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabWnd_Cake.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\TabWndDef.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\CtrlEx\ToolTipCtrlZ.h">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Commands\CmdFuncs.h">
+      <Filter>UI Layer\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Commands\CmdGotoPage.h">
+      <Filter>UI Layer\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Commands\CmdMainTabOp.h">
+      <Filter>UI Layer\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Functions\AddTask\AddTaskDoc.h">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Functions\AddTask\AddTaskLinksEdit.h">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Functions\AddTask\AddTaskListCtrl.h">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Functions\AddTask\DlgAddTask.h">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolbarCtrls\BrowserToolbarCtrl.h">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolbarCtrls\TbcAdvance.h">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolbarCtrls\TbcDownload.h">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolbarCtrls\TbcShare.h">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolbarCtrls\ToolBarCtrlX.h">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\ToolbarCtrls\ToolBarCtrlZ.h">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\ClientListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\CollectionListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\CommentListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\DownloadClientsCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\DownloadedListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\DownloadListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\FriendListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\KadContactListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\KadSearchListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\LogListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\MuleListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\QueueListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\SearchListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\ServerListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\SharedFilesCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\Lists\UploadListCtrl.h">
+      <Filter>UI Layer\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SMIRC\IrcChannelListCtrl.h">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SMIRC\IrcChannelTabCtrl.h">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SMIRC\IrcNickListCtrl.h">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\SMIRC\IrcWnd.h">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TrayMenu\GradientStatic.h">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TrayMenu\MuleSystrayDlg.h">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TrayMenu\TrayDialog.h">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\TrayMenu\TrayMenuBtn.h">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKey\HotKeyEdit.h">
+      <Filter>HotKey</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\all.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ArchivePreview.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bold.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTBack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTBack_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTForward.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTForward_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTRefresh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTRefresh_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTStop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTStop_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTVeryCD.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BTVeryCD_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cancel.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Category.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Chat.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Checkmark.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CheckNewVersion.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clear1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clear2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Client0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Client1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Client2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Client3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Client4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientaMule.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientaMulePlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientCompatible.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientCompatiblePlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientDefault.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientDefaultPlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClienteDonkeyHybrid.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClienteDonkeyHybridPlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientlPhant.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientlPhantPlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientMLDonkey.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientMLDonkeyPlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clientobfuovl.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientSecureHashOvl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clientsecurehasobfuhovl.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientShareaza.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientShareazaPlus.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientsKnown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ClientsOnQueue.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Close.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Collapse.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\colour.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Comment.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectDo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectDrop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Connected.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedHighHigh.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedHighHigh.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedHighLow.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedHighLow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedHighNot.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedHighNot.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedLowHigh.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedLowHigh.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedLowLow.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedLowLow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedLowNot.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedLowNot.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedNotHigh.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedNotHigh.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedNotLow.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedNotLow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedNotNot.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectedNotNot.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Connection.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectStop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ConnectSvr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Contact0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Contact1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Contact2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Contact3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Contact4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Convert.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Copy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CopySelected.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CopyVisible.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DeleteAll.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DeleteSelected.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DetailComment.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DetailInfo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DetailStat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\DetailTab_A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\DetailTab_H.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\DetailTab_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DetailUpload.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DirectDownload.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DisconnectSvr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Display.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Download.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Download.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DownloadFiles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Downloads.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DownPlay.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\eD2kLink.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\eD2kLinkPaste.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Empty.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\emuleColl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\emuleCollAdd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\emuleCollectionFileType.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\emuleCollEdit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\emuleCollSearch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\emuleCollView.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExpandAll.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExpandAll2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ExportAll.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\File.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileComments.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileCommentsOvl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileDonkey.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileInfo.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileInfo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileOpen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FilePriority.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRating0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRating1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRating2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRating3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRating4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRating5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileRename.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileSharedKad.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileSharedServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileSystem.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeAny.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeArchive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeAudio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeCDImage.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeDocument.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeEmuleCollection.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypePicture.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeProgram.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypeVideo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Find.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FolderOpen.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FolderOpen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Folders.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Friend.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Friends1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Friends2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Friends3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FriendSlot.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Global.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HardDisk.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\HardDisk.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Import.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Incoming.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IncomingFiles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\incomplete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Info.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IPFilter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IRC.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IRCClipboard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kad.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadBootstrap.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadContactList.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadCurrentSearches.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadFileSearch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadNodeSearch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadStoreFile.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadStoreWord.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KadWordSearch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\leecher.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ListAdd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ListRemove.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ListViewSortDown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ListViewSortDown2x.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ListViewSortUp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ListViewSortUp2x.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Log.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Logo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_A_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_A_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_A_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_H_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_H_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_H_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_N_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_N_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainBtn_N_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Advanced_A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Advanced_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Browser_A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Browser_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Download_A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Download_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Share_A.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainTab_Share_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainTabBk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainTabMore_H.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainTabMore_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\MainTabMore_P.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MediaInfo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Message.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MessagePending.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Messages.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MetaData.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MiniMuleBack.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Mule.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mule_wiz_hdr.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NavigateBack.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NavigateForward.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Notifications.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Options.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_A_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_A_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_A_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_H_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_H_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_H_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_N_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_N_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTab_N_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\PageTabBk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pause.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PeerLog.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Preferences.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Preferences.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Preview.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Priority.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PriorityAuto.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PriorityHigh.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PriorityLow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PriorityNormal.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Proxy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rating.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RatingBad.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Records.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Reloads.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rename.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resetformat.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Restore.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RestoreWindow.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RestoreWindow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Scheduler.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Search.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Search_type_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Search_type_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\Searchbar_ico.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\SearchBarEdit_L.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\SearchBarEdit_M.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\SearchBarEdit_R.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\SearchBtn_H.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\SearchBtn_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\SearchBtn_P.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchEdit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchGlobalActive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchKad.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchKadActive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchParams.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchResults.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SearchServerActive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Security.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Server.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ServerAdd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ServerInfo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ServerList.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ServerSearch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ServersUpdate.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SharedFiles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SharedFilesList.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ShareDirs.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\ShareFileCount_L.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\ShareFileCount_M.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\ShareFileCount_R.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ShareFiles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shield.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Speed.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SpeedMax.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SpeedMin.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\Spliter_H.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Face\Spliter_V.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SplitWindow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Start.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Statistics.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatisticsDetail.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsCumulative.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsDay.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsGeneric.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsMonth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsProjected.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsTime.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\StatsYear.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TaskbarNotifier.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbNewTask.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbNewTask_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbOpenFile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbOpenFile_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbOpenFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbOpenFolder_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbPause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbPause_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbRemove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbRemove_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbRename.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbRename_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbStart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbStart_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbStop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TbStop_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tools.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Transfer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TransferUpDown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayBtnBlue.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayBtnHomestead.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayBtnMetallic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayConnected.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayDisconnected.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayLowID.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tweak.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\underline.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up0down0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up0down1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up1down0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Up1down1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Upload.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Upload.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\User.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UserAdd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UserDelete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UserDetails.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UserFiles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UserMessage.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Web.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\webbrowser.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\wiz1_wat.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wizard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wizard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\emule.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="emule.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\emule.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\InetDownload.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MiniMule.htm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PopMule.htm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\veryearth.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WideCharLowerMap.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UILayer\Flex.skl">
+      <Filter>UI Layer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WorkLayer\kademlia\io\BufferedFileIO.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\ByteIO.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\routing\Contact.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\DataIO.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Entry.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\FileIO.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Indexed.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\io\IOException.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Kademlia.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\net\KademliaUDPListener.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\LittleEndian.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\MiscUtils.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\net\PacketTracking.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Prefs.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\routing\RoutingBin.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\routing\RoutingZone.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\Search.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\SearchManager.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\ThreadName.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\kademlia\UDPFirewallTester.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\kademlia\utils\UInt128.cpp">
+      <Filter>Kademlia</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\AbstractFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\AICHSyncThread.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ArchiveRecovery.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\AsyncProxySocketLayer.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\AsyncSocketEx.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\AsyncSocketExLayer.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\BaseClient.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\BetterSP2.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\CBase64Coding.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ClientCredits.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ClientList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ClientReqSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ClientUDPSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Collection.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\CollectionFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\CorruptionBlackBox.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Database.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\DeadSourceList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\DLP.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\DownloadClient.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\DownloadQueue.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ED2KLink.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Ed2kUpDownClient.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\EMClientReqSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\EMSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\emule.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\EmuleUpdater.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\EncryptedDatagramSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\EncryptedStreamSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FileMgr.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FileMgrDB.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FirewallOpener.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FrameGrabThread.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Friend.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FriendList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\GlobalVariable.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\GZipFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\http_chunk.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\I18n.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IEMonitor.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\INetClient.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ini2.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IP2Country.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IPFilter.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IrcMain.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IrcSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\JavaScriptEscape.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\KnownFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\KnownFileList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\LastCommonRouteFinder.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ListenSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Log.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MD4.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MD5Sum.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MediaInfo.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MessageLog.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MMServer.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MMSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\otherfunctions.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\packets.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\parser.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PartFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PartFileConvert.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PeerCacheClient.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PeerCacheFinder.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PeerLog.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Pinger.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\PlayerMgr.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Preferences.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Preview.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Quantize.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\RARFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SafeFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Scanner.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Scheduler.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SearchFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SearchList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SecRunAsUser.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Security.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SeeFileManager.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SelfTest.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\server.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ServerList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ServerSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SHA.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SHAHashSet.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SharedFileList.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ShortcutManager.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\sockets.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\StatForServer.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\StatisticFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Statistics.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\stdafx.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\StringConversion.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ThreadsMgr.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\TimeTick.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\TraceEvent.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\TransferCompletedProcessor.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UDPSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UpdateInfo.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UpdaterThread.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UploadBandwidthThrottler.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UploadClient.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UploadQueue.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UrlSite.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Version.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\WebServer.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\WebSocket.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\ZIPFile.cpp">
+      <Filter>Work Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\NatSocket.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\NatThread.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\SourceExchangeNAT.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseByBuddy.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseBySourceExchange.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseBySvr.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\NatTraversal\TraverseStrategy.cpp">
+      <Filter>Work Layer\Nat Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\WordFilter\WordFilter.cpp">
+      <Filter>Work Layer\WordFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\DNSManager.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FtpClient.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\FtpClientReqSocket.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\HttpClient.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\HttpClientReqSocket.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SendGetUrlReqSocket.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\SourceURL.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\TimerOp_UrlClientRetry.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\TimerOpBase.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UrlSrcFromSvrMgr.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UrlSrcGetFromSvrSocket.cpp">
+      <Filter>Work Layer\HTTP FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Irc\IrcMain.cpp">
+      <Filter>Work Layer\Irc</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Irc\IrcSocket.cpp">
+      <Filter>Work Layer\Irc</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IEFilter.cpp">
+      <Filter>Work Layer\IEFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\IEFilterMgr.cpp">
+      <Filter>Work Layer\IEFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UPnP\UPnpAsynThreads.cpp">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UPnP\UPnpMgr.cpp">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UPnP\UPnpNat.cpp">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UPnP\UPnpNatMapping.cpp">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\UPnP\UPnpNatMappingKey.cpp">
+      <Filter>Work Layer\UPnP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\Internal\InternalSocket.cpp">
+      <Filter>Work Layer\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\CheckConflict.cpp">
+      <Filter>Work Layer\CrashReport</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\mdump.cpp">
+      <Filter>Work Layer\CrashReport</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MemPool\MemPool.cpp">
+      <Filter>Work Layer\MemPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MemPool\MemPoolMgr.cpp">
+      <Filter>Work Layer\MemPool</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MetaLink\MetalinkExecutor.cpp">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MetaLink\MetaLinkPacker.cpp">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MetaLink\MetaLinkParser.cpp">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkLayer\MetaLink\MetaLinkQuerySocket.cpp">
+      <Filter>Work Layer\MetaLink</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\3DPreviewControl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\AddFriend.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\AddSourceDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\AdvanceTabWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\AffirmDeleteDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ArchivePreviewDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\BarShader.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\BrowserToolbarInfo.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\BufferMovieDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CatDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ChatSelector.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ChatWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CIF.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ClientDetailDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ClosableTabCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CloseModeDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CollectionCreateDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CollectionViewDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ColorButton.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ColorFrameCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ColourPopup.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ComboBoxEx2.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CommentDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CommentDialogLst.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CoolBarCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CreateCheckboxImageList.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CreditsDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CreditsThread.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CustomAutoComplete.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DetailInfo.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DialogMinTrayBtn.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DirectDownloadDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DirectoryTreeCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DlgMainTabAdvance.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DlgMaintabDownload.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DlgMainTabResource.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DlgMainTabShare.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DlgMainTabSidePanel.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DownloadDetailDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DownloadTabCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DropDownButton.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\DropTarget.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ED2kLinkDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\EditDelayed.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\EditX.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\emuleDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\EnBitmap.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\FaceManager.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\FileDetailDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\FileDetailDialogInfo.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\FileDetailDialogName.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\FileHashKey.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\FileInfoDialog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\GDIThread.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\HtmlCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\HTRichEditCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\HttpDownloadDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\HyperTextCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\IconStatic.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\IEManagerWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\IESecurity.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\InputBox.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\IPFilterDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\KadContactHistogramCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\KademliaWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\LayeredWindowHelperST.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ListBoxST.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ListCtrlEditable.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ListCtrlX.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ListViewSearchDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ListViewWalkerPropertySheet.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Localizee.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\LocalizeMgr.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MainTabBkDraw.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MainTabWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MenuXP.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MetaDataDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MeterIcon.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MiniMule.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\MuleStatusBarCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\NetworkInfoDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\NumericEdit.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\OScopeCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PageTabBkDraw.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PerfLog.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PopMule.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgAntiLeech.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgConnection.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgDebug.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgDirectories.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgDisplay.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgDownloadSecurity.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgFiles.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgGeneral.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPGProxy.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgScheduler.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgServer.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgTweaks.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PPgWebServer.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PreferencesDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PreviewDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ProgressCtrlX.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ProgressStatic.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\PShtWiz1.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ResetButton.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\RichEditCtrlX.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\RichEditStream.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ScanDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SearchBarCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SearchButton.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SearchDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SearchEdit.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SearchParamsWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SearchResultsWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ServerWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SharedDirsTreeCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SharedFilesWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ShareFilesCountStatic.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ShareFileSelect.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SpeedMeter.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SpeedMeterDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SplashScreen.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SplashWndThread.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SplitterControl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SplitterControlEx.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\StatisticsDlg.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\StatisticsInfo.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\StatisticsTree.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\tabctrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TaskbarNotifier.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TextToSpeech.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TitleMenu.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolTipCtrlX.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TransferWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TreeOptionsCtrl.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TreeOptionsCtrlEx.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TreePropSheet.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TreePropSheetPgFrame.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TreePropSheetPgFrameDef.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\UpLoading.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\UserComment.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\VisualStylesXP.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\WBNotifyReceiver.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\WebBrowserWnd.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Wizard.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\WndMgr.cpp">
+      <Filter>UI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\Draw.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\Publisher.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\RectDraw.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\SingleInst.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\Tools.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\Util.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\UtilMisc.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Common\UtilUI.cpp">
+      <Filter>UI Layer\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\Joint.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\Resizee.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\Resizer.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabBar.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_Cake.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_MainButton.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_MainTabBn.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_Normal.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_NormalCloseable.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_WebBrowser.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItem_Wnd.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabItemAffector.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabWnd.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabWnd_Cake.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\TabWndDef.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\CtrlEx\ToolTipCtrlZ.cpp">
+      <Filter>UI Layer\CtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Commands\CmdFuncs.cpp">
+      <Filter>UI Layer\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Commands\CmdGotoPage.cpp">
+      <Filter>UI Layer\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Commands\CmdMainTabOp.cpp">
+      <Filter>UI Layer\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Functions\AddTask\AddTaskDoc.cpp">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Functions\AddTask\AddTaskLinksEdit.cpp">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Functions\AddTask\AddTaskListCtrl.cpp">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Functions\AddTask\DlgAddTask.cpp">
+      <Filter>UI Layer\Functions\AddTask</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolbarCtrls\BrowserToolbarCtrl.cpp">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolbarCtrls\TbcAdvance.cpp">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolbarCtrls\TbcDownload.cpp">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolbarCtrls\TbcShare.cpp">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolbarCtrls\ToolBarCtrlX.cpp">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\ToolbarCtrls\ToolBarCtrlZ.cpp">
+      <Filter>UI Layer\ToolBarCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\ClientListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\CollectionListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\CommentListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\DownloadClientsCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\DownloadedListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\DownloadListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\FriendListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\KadContactListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\KadSearchListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\LogListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\MuleListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\QueueListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\SearchListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\ServerListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\SharedFilesCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\Lists\UploadListCtrl.cpp">
+      <Filter>UI Layer\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SMIRC\IrcChannelListCtrl.cpp">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SMIRC\IrcChannelTabCtrl.cpp">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SMIRC\IrcNickListCtrl.cpp">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\SMIRC\IrcWnd.cpp">
+      <Filter>UI Layer\SMIRC</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TrayMenu\GradientStatic.cpp">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TrayMenu\MuleSystrayDlg.cpp">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TrayMenu\TrayDialog.cpp">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer\TrayMenu\TrayMenuBtn.cpp">
+      <Filter>UI Layer\TrayMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKey\HotKeyEdit.cpp">
+      <Filter>HotKey</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="WorkLayer\MD4_asm.asm">
+      <Filter>Work Layer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WorkLayer\SHA_asm.asm">
+      <Filter>Work Layer</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
